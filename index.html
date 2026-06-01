@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Participantes de la rifa | Encuesta UPY</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">Página temporal</div>
+      <h1>Participantes registrados en la rifa</h1>
+      <p>
+        Esta página muestra los correos institucionales registrados de forma parcial para verificar la participación en la rifa de la encuesta escolar.
+      </p>
+    </section>
+
+    <section class="summary" aria-label="Resumen de participantes">
+      <article class="card">
+        <span class="label">Total registrados</span>
+        <strong id="totalParticipants">—</strong>
+      </article>
+      <article class="card">
+        <span class="label">Última actualización</span>
+        <strong id="lastUpdated">—</strong>
+      </article>
+    </section>
+
+    <section class="search-panel">
+      <label for="searchInput">Buscar mi correo institucional</label>
+      <div class="search-box">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Ejemplo: 2310419@upy.edu.mx"
+          autocomplete="off"
+        />
+        <button id="clearSearch" type="button">Limpiar</button>
+      </div>
+      <p class="hint">
+        Puedes escribir tu correo completo. La página lo comparará con la versión censurada publicada.
+      </p>
+    </section>
+
+    <section class="notice">
+      <strong>Aviso:</strong>
+      No se muestran respuestas de la encuesta, nombres, grupos ni carreras. La lista se eliminará al terminar la rifa.
+    </section>
+
+    <section class="participants-section">
+      <div class="section-header">
+        <h2>Lista de participantes</h2>
+        <span id="visibleCount">—</span>
+      </div>
+      <ul id="participantsList" class="participants-list"></ul>
+      <p id="emptyState" class="empty-state" hidden>No se encontraron coincidencias.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

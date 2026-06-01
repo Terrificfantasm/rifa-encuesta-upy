@@ -1,0 +1,10 @@
+# Archivos con datos reales o privados
+/data/
+*.xlsx
+*.csv
+.env
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
