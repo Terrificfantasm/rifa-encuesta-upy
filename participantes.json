@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-06-01T00:00:00-06:00",
-  "total": 3,
+  "total": 4,
   "participants": [
     {
       "masked_email": "23**419@upy.edu.mx",
@@ -13,6 +13,9 @@
     {
       "masked_email": "22**771@upy.edu.mx",
       "registered_at": "2026-06-01T00:00:00-06:00"
+    },
+    { "masked_email": "23**010@upy.edu.mx",
+      "registered_at":"2026-06-01T00:00:00-06:00"
     }
   ]
 }

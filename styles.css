@@ -73,7 +73,8 @@ h1 {
 .card,
 .search-panel,
 .notice,
-.participants-section {
+.participants-section,
+.wheel-section {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 22px;
@@ -155,7 +156,8 @@ button:hover {
   line-height: 1.5;
 }
 
-.participants-section {
+.participants-section,
+.wheel-section {
   padding: 26px;
   margin-top: 22px;
 }
@@ -214,7 +216,8 @@ button:hover {
 
   .hero,
   .search-panel,
-  .participants-section {
+  .participants-section,
+  .wheel-section {
     padding: 24px;
   }
 
@@ -224,5 +227,179 @@ button:hover {
 
   .search-box {
     flex-direction: column;
+  }
+}
+
+
+.section-subtitle {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.wheel-status {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.wheel-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 28px 0 12px;
+  overflow: hidden;
+}
+
+.wheel-frame {
+  position: relative;
+  width: min(680px, 86vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  filter: drop-shadow(0 26px 42px rgba(23, 32, 51, 0.16));
+  pointer-events: none;
+  user-select: none;
+}
+
+.raffle-wheel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 12px solid #ffffff;
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.98) 0 16%, transparent 17%),
+    repeating-conic-gradient(
+      from -8deg,
+      #214bc8 0deg 12deg,
+      #5777e5 12deg 24deg,
+      #9bb0ff 24deg 36deg,
+      #e7ecff 36deg 48deg
+    );
+  animation: slowSpin 55s linear infinite;
+}
+
+.raffle-wheel::after {
+  content: "";
+  position: absolute;
+  inset: 18%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.wheel-label {
+  --angle: 0deg;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 185px;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #172033;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: clamp(0.55rem, 1.25vw, 0.82rem);
+  font-weight: 800;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 6px 16px rgba(23, 32, 51, 0.12);
+  transform:
+    translate(-50%, -50%)
+    rotate(var(--angle))
+    translateY(calc(-1 * min(295px, 38vw)))
+    rotate(90deg);
+}
+
+.wheel-center {
+  position: absolute;
+  width: min(170px, 28vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 4px;
+  background: #ffffff;
+  border: 8px solid var(--accent-soft);
+  color: var(--accent);
+  text-transform: uppercase;
+  box-shadow: 0 14px 28px rgba(23, 32, 51, 0.14);
+}
+
+.wheel-center span {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.wheel-center strong {
+  font-size: clamp(1.7rem, 5vw, 3.2rem);
+  line-height: 0.95;
+}
+
+.wheel-pointer {
+  position: absolute;
+  top: 10px;
+  z-index: 5;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 34px solid var(--accent);
+  filter: drop-shadow(0 8px 10px rgba(23, 32, 51, 0.18));
+}
+
+.wheel-note {
+  margin: 18px auto 0;
+  max-width: 720px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.55;
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .raffle-wheel {
+    animation: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .wheel-stage {
+    padding-top: 18px;
+  }
+
+  .wheel-label {
+    width: 138px;
+    padding: 4px 6px;
+    transform:
+      translate(-50%, -50%)
+      rotate(var(--angle))
+      translateY(calc(-1 * min(185px, 37vw)))
+      rotate(90deg);
+  }
+
+  .wheel-pointer {
+    top: 6px;
+    border-left-width: 14px;
+    border-right-width: 14px;
+    border-top-width: 26px;
   }
 }

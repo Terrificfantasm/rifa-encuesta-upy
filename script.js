@@ -7,6 +7,7 @@ const participantsList = document.querySelector("#participantsList");
 const emptyState = document.querySelector("#emptyState");
 const searchInput = document.querySelector("#searchInput");
 const clearSearch = document.querySelector("#clearSearch");
+const raffleWheel = document.querySelector("#raffleWheel");
 
 let participants = [];
 
@@ -43,6 +44,36 @@ function formatDate(value) {
   }).format(date);
 }
 
+function renderWheel() {
+  if (!raffleWheel) return;
+
+  raffleWheel.innerHTML = "";
+
+  const labels = participants
+    .map((participant) => getMaskedEmail(participant))
+    .filter(Boolean);
+
+  if (labels.length === 0) {
+    const placeholder = document.createElement("span");
+    placeholder.className = "wheel-label";
+    placeholder.style.setProperty("--angle", "0deg");
+    placeholder.textContent = "Sin participantes";
+    raffleWheel.appendChild(placeholder);
+    return;
+  }
+
+  labels.forEach((label, index) => {
+    const item = document.createElement("span");
+    const angle = (360 / labels.length) * index;
+
+    item.className = "wheel-label";
+    item.style.setProperty("--angle", `${angle}deg`);
+    item.textContent = label;
+
+    raffleWheel.appendChild(item);
+  });
+}
+
 function renderList(filter = "") {
   const query = normalizeEmail(filter);
   const maskedQuery = query.includes("@") ? maskEmail(query) : query;
@@ -75,10 +106,12 @@ async function loadParticipants() {
     totalParticipants.textContent = data.total ?? participants.length;
     lastUpdated.textContent = formatDate(data.updated_at);
     renderList(searchInput.value);
+    renderWheel();
   } catch (error) {
     totalParticipants.textContent = "Error";
     lastUpdated.textContent = "No disponible";
     participantsList.innerHTML = "";
+    renderWheel();
     emptyState.hidden = false;
     emptyState.textContent = "No se pudo cargar la lista. Intenta de nuevo más tarde.";
     console.error(error);

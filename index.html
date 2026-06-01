@@ -56,6 +56,33 @@
       <ul id="participantsList" class="participants-list"></ul>
       <p id="emptyState" class="empty-state" hidden>No se encontraron coincidencias.</p>
     </section>
+
+    <section class="wheel-section" aria-label="Ruleta visual de la rifa">
+      <div class="section-header">
+        <div>
+          <h2>Ruleta visual de la rifa</h2>
+          <p class="section-subtitle">
+            Los correos censurados aparecen en una ruleta decorativa. Esta ruleta no realiza el sorteo oficial.
+          </p>
+        </div>
+        <span class="wheel-status">Vista previa</span>
+      </div>
+
+      <div class="wheel-stage">
+        <div class="wheel-pointer" aria-hidden="true"></div>
+        <div class="wheel-frame">
+          <div id="raffleWheel" class="raffle-wheel" aria-hidden="true"></div>
+          <div class="wheel-center" aria-hidden="true">
+            <span>Rifa</span>
+            <strong>UPY</strong>
+          </div>
+        </div>
+      </div>
+
+      <p class="wheel-note">
+        Elemento visual: gira lentamente para representar la rifa, pero no se puede presionar ni usar para elegir ganador.
+      </p>
+    </section>
   </main>
 
   <script src="script.js"></script>
