@@ -1,21 +1,678 @@
 {
-  "updated_at": "2026-06-01T00:00:00-06:00",
-  "total": 4,
+  "updated_at": "2026-06-03T13:59:26",
+  "total": 168,
   "participants": [
     {
-      "masked_email": "23**419@upy.edu.mx",
-      "registered_at": "2026-06-01T00:00:00-06:00"
+      "masked_email": "210****094@upy.edu.mx",
+      "registered_at": null
     },
     {
-      "masked_email": "24**208@upy.edu.mx",
-      "registered_at": "2026-06-01T00:00:00-06:00"
+      "masked_email": "210****106@upy.edu.mx",
+      "registered_at": null
     },
     {
-      "masked_email": "22**771@upy.edu.mx",
-      "registered_at": "2026-06-01T00:00:00-06:00"
+      "masked_email": "220****043@upy.edu.mx",
+      "registered_at": null
     },
-    { "masked_email": "23**010@upy.edu.mx",
-      "registered_at":"2026-06-01T00:00:00-06:00"
+    {
+      "masked_email": "220****079@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****109@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****121@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****186@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****190@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****207@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****213@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****221@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "220****225@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****005@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****010@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****012@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****014@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****017@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****029@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****036@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****037@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****045@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****048@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****050@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****057@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****062@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****063@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****066@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****070@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****084@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****085@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****087@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****100@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****102@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****103@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****104@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****113@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****115@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****119@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****127@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****128@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****137@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****154@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****158@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****161@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****166@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****170@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****178@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****179@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****180@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****182@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****184@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****191@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****196@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****197@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****200@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****218@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****223@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "230****235@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****002@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****004@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****005@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****009@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****015@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****023@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****028@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****032@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****041@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****048@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****050@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****053@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****062@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****064@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****066@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****074@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****084@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****086@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****088@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****096@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****100@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****108@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****117@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****129@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****134@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****150@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****151@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****154@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****155@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****161@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****164@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****171@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****172@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****185@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****188@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****189@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****195@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****198@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****202@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****203@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****206@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****210@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****211@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****217@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****222@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****225@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****234@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****239@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****244@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****250@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "240****251@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****014@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****016@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****019@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****022@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****023@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****028@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****031@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****032@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****047@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****053@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****067@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****069@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****073@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****075@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****079@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****083@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****090@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****095@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****098@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****099@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****102@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****103@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****105@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****108@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****114@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****124@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****132@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****140@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****142@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****145@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****151@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****153@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****164@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****168@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****171@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****174@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****181@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****186@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****192@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****195@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****199@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****202@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****209@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****210@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****212@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****219@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****225@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****227@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****236@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****237@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****264@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****265@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****266@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****267@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****269@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****271@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****274@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****275@upy.edu.mx",
+      "registered_at": null
+    },
+    {
+      "masked_email": "250****277@upy.edu.mx",
+      "registered_at": null
     }
   ]
 }
