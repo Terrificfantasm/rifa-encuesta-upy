@@ -504,3 +504,35 @@ button:hover {
     border-top-width: 26px;
   }
 }
+
+.search-result {
+  margin: 14px 0 0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.search-result.neutral {
+  background: #f4efff;
+  color: var(--upy-purple-dark);
+  border: 1px solid var(--border);
+}
+
+.search-result.success {
+  background: #e9f8ee;
+  color: #1f7a3d;
+  border: 1px solid #b8e4c4;
+}
+
+.search-result.error {
+  background: #fff0f0;
+  color: #a12a2a;
+  border: 1px solid #f0b8b8;
+}
+
+.search-result.warning {
+  background: #fff7df;
+  color: #7a5700;
+  border: 1px solid rgba(201, 154, 46, 0.42);
+}

@@ -1,131 +1,191 @@
-const DATA_FILE = "participantes.json";
+const DATA_URL = "participantes.json";
 
-const totalParticipants = document.querySelector("#totalParticipants");
-const lastUpdated = document.querySelector("#lastUpdated");
-const visibleCount = document.querySelector("#visibleCount");
-const participantsList = document.querySelector("#participantsList");
-const emptyState = document.querySelector("#emptyState");
-const searchInput = document.querySelector("#searchInput");
-const clearSearch = document.querySelector("#clearSearch");
-const raffleWheel = document.querySelector("#raffleWheel");
+const state = {
+  participants: []
+};
 
-let participants = [];
+const elements = {
+  total: document.getElementById("totalParticipants"),
+  updatedAt: document.getElementById("updatedAt"),
+  visibleCount: document.getElementById("visibleCount"),
+  list: document.getElementById("participantsList"),
+  searchInput: document.getElementById("searchInput"),
+  searchButton: document.getElementById("searchButton"),
+  searchResult: document.getElementById("searchResult"),
+  wheel: document.getElementById("raffleWheel"),
+  wheelTotal: document.getElementById("wheelTotal")
+};
 
-function normalizeEmail(value) {
-  return String(value || "").trim().toLowerCase();
+function normalizeEmail(email) {
+  return email.trim().toLowerCase();
 }
 
-function maskEmail(email) {
-  const normalized = normalizeEmail(email);
-  const [local, domain] = normalized.split("@");
+async function sha256Hex(text) {
+  const encodedText = new TextEncoder().encode(text);
+  const hashBuffer = await crypto.subtle.digest("SHA-256", encodedText);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
 
-  if (!local || !domain) return normalized;
-
-  const firstPart = local.slice(0, 2);
-  const lastPart = local.slice(-3);
-  const hiddenLength = Math.max(local.length - firstPart.length - lastPart.length, 2);
-
-  return `${firstPart}${"*".repeat(hiddenLength)}${lastPart}@${domain}`;
-}
-
-function getMaskedEmail(participant) {
-  if (typeof participant === "string") return participant;
-  return participant.masked_email || participant.email_masked || participant.email || "";
+  return hashArray
+    .map(byte => byte.toString(16).padStart(2, "0"))
+    .join("");
 }
 
 function formatDate(value) {
   if (!value) return "Sin fecha";
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return value;
 
-  return new Intl.DateTimeFormat("es-MX", {
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return date.toLocaleString("es-MX", {
     dateStyle: "medium",
     timeStyle: "short"
-  }).format(date);
+  });
 }
 
-function renderWheel() {
-  if (!raffleWheel) return;
+function getParticipantAlias(participant) {
+  return participant.alias || "Participante";
+}
 
-  raffleWheel.innerHTML = "";
+function renderSummary(data) {
+  if (elements.total) {
+    elements.total.textContent = data.total ?? state.participants.length;
+  }
 
-  const labels = participants
-    .map((participant) => getMaskedEmail(participant))
-    .filter(Boolean);
+  if (elements.updatedAt) {
+    elements.updatedAt.textContent = formatDate(data.updated_at);
+  }
 
-  if (labels.length === 0) {
-    const placeholder = document.createElement("span");
-    placeholder.className = "wheel-label";
-    placeholder.style.setProperty("--angle", "0deg");
-    placeholder.textContent = "Sin participantes";
-    raffleWheel.appendChild(placeholder);
+  if (elements.wheelTotal) {
+    elements.wheelTotal.textContent = data.total ?? state.participants.length;
+  }
+}
+
+function renderParticipants(participants) {
+  if (!elements.list) return;
+
+  elements.list.innerHTML = "";
+
+  if (elements.visibleCount) {
+    elements.visibleCount.textContent = `${participants.length} visibles`;
+  }
+
+  if (participants.length === 0) {
+    const empty = document.createElement("li");
+    empty.className = "empty-state";
+    empty.textContent = "Todavía no hay participantes registrados.";
+    elements.list.appendChild(empty);
     return;
   }
 
-  labels.forEach((label, index) => {
-    const item = document.createElement("span");
-    const angle = (360 / labels.length) * index;
-
-    item.className = "wheel-label";
-    item.style.setProperty("--angle", `${angle}deg`);
-    item.textContent = label;
-
-    raffleWheel.appendChild(item);
+  participants.forEach(participant => {
+    const item = document.createElement("li");
+    item.textContent = getParticipantAlias(participant);
+    elements.list.appendChild(item);
   });
 }
 
-function renderList(filter = "") {
-  const query = normalizeEmail(filter);
-  const maskedQuery = query.includes("@") ? maskEmail(query) : query;
+function renderWheel(participants) {
+  if (!elements.wheel) return;
 
-  const filtered = participants.filter((participant) => {
-    const masked = normalizeEmail(getMaskedEmail(participant));
-    return !query || masked.includes(query) || masked.includes(maskedQuery);
+  elements.wheel.innerHTML = "";
+
+  if (participants.length === 0) {
+    return;
+  }
+
+  const maxLabels = Math.min(participants.length, 80);
+  const visibleParticipants = participants.slice(0, maxLabels);
+  const step = 360 / visibleParticipants.length;
+
+  visibleParticipants.forEach((participant, index) => {
+    const label = document.createElement("span");
+    label.className = "wheel-label";
+    label.textContent = getParticipantAlias(participant);
+    label.style.setProperty("--angle", `${index * step}deg`);
+    elements.wheel.appendChild(label);
   });
+}
 
-  participantsList.innerHTML = "";
+async function searchParticipant() {
+  if (!elements.searchInput || !elements.searchResult) return;
 
-  filtered.forEach((participant) => {
-    const item = document.createElement("li");
-    item.textContent = getMaskedEmail(participant);
-    participantsList.appendChild(item);
-  });
+  const rawEmail = elements.searchInput.value;
+  const email = normalizeEmail(rawEmail);
 
-  visibleCount.textContent = `${filtered.length} visibles`;
-  emptyState.hidden = filtered.length !== 0;
+  elements.searchResult.className = "search-result";
+
+  if (!email) {
+    elements.searchResult.textContent = "Escribe tu correo institucional para buscarte.";
+    elements.searchResult.classList.add("neutral");
+    return;
+  }
+
+  const validEmail = /^\d{6,9}@upy\.edu\.mx$/i.test(email);
+
+  if (!validEmail) {
+    elements.searchResult.textContent = "Revisa que el correo tenga formato válido, por ejemplo: 2310419@upy.edu.mx";
+    elements.searchResult.classList.add("warning");
+    return;
+  }
+
+  const emailHash = await sha256Hex(email);
+
+  const match = state.participants.find(
+    participant => participant.email_hash === emailHash
+  );
+
+  if (match) {
+    elements.searchResult.textContent = `Sí estás registrado como ${match.alias}.`;
+    elements.searchResult.classList.add("success");
+  } else {
+    elements.searchResult.textContent = "No encontramos tu correo registrado todavía. Si acabas de contestar, espera a que se actualice la lista.";
+    elements.searchResult.classList.add("error");
+  }
 }
 
 async function loadParticipants() {
   try {
-    const response = await fetch(`${DATA_FILE}?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error("No se pudo cargar participantes.json");
+    const response = await fetch(`${DATA_URL}?v=${Date.now()}`);
+
+    if (!response.ok) {
+      throw new Error("No se pudo cargar participantes.json");
+    }
 
     const data = await response.json();
-    participants = Array.isArray(data.participants) ? data.participants : [];
 
-    totalParticipants.textContent = data.total ?? participants.length;
-    lastUpdated.textContent = formatDate(data.updated_at);
-    renderList(searchInput.value);
-    renderWheel();
+    state.participants = Array.isArray(data.participants)
+      ? data.participants
+      : [];
+
+    renderSummary(data);
+    renderParticipants(state.participants);
+    renderWheel(state.participants);
   } catch (error) {
-    totalParticipants.textContent = "Error";
-    lastUpdated.textContent = "No disponible";
-    participantsList.innerHTML = "";
-    renderWheel();
-    emptyState.hidden = false;
-    emptyState.textContent = "No se pudo cargar la lista. Intenta de nuevo más tarde.";
     console.error(error);
+
+    if (elements.list) {
+      elements.list.innerHTML = "";
+      const item = document.createElement("li");
+      item.className = "empty-state";
+      item.textContent = "No se pudo cargar la lista de participantes.";
+      elements.list.appendChild(item);
+    }
   }
 }
 
-searchInput.addEventListener("input", (event) => {
-  renderList(event.target.value);
-});
+if (elements.searchButton) {
+  elements.searchButton.addEventListener("click", searchParticipant);
+}
 
-clearSearch.addEventListener("click", () => {
-  searchInput.value = "";
-  renderList("");
-  searchInput.focus();
-});
+if (elements.searchInput) {
+  elements.searchInput.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+      searchParticipant();
+    }
+  });
+}
 
 loadParticipants();

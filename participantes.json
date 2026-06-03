@@ -1,678 +1,678 @@
 {
-  "updated_at": "2026-06-03T13:59:26",
+  "updated_at": "2026-06-03T15:54:09",
   "total": 168,
   "participants": [
     {
-      "masked_email": "210****094@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno001@upy.com",
+      "email_hash": "b7b1a00f014c03408f969d0f9db551368cd5b1b4782b213c618cf2ee752e942c"
     },
     {
-      "masked_email": "210****106@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno002@upy.com",
+      "email_hash": "3182c1375f46480c8932b7d8897607d444fb671e59b5a9332ffa776ccd5a7d87"
     },
     {
-      "masked_email": "220****043@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno003@upy.com",
+      "email_hash": "6a28bd9e4cfe7e35065bab050d086b57bc63c31a61738d23e1ee7e7db2a3c60a"
     },
     {
-      "masked_email": "220****079@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno004@upy.com",
+      "email_hash": "5c4c868184b1ef11f3b14a9dfef054ff3c821a8b19f32f69d5ec69d3f5e816e7"
     },
     {
-      "masked_email": "220****109@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno005@upy.com",
+      "email_hash": "0514d45ac8063958a90f67ddc0ed2f357172a87de750c7ee214a9055c3a23608"
     },
     {
-      "masked_email": "220****121@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno006@upy.com",
+      "email_hash": "5b10e17e29da3219c525dc55b8610262276de17549e559372276d67426e571e7"
     },
     {
-      "masked_email": "220****186@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno007@upy.com",
+      "email_hash": "637a59bcce22ff3a399562f3c81570ae3508dc977e8387deb41fe4b3ce2c72ac"
     },
     {
-      "masked_email": "220****190@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno008@upy.com",
+      "email_hash": "b7f3a9c1d0770c469f5ac56c51a46c70efd67e2c30ba0d998401928749a3b6d4"
     },
     {
-      "masked_email": "220****207@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno009@upy.com",
+      "email_hash": "ac9931195cba1f8aec79419a22c666add2270972c8c3571cb0a2295a4e5472f8"
     },
     {
-      "masked_email": "220****213@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno010@upy.com",
+      "email_hash": "292ede96016b2bed580fc4a9136fdc8e7eb8045c60306a86da2a4f3c1c45e40e"
     },
     {
-      "masked_email": "220****221@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno011@upy.com",
+      "email_hash": "28ccd5432611f0c778a86713741991dea228ae1dc7f115a57414653d80f9d757"
     },
     {
-      "masked_email": "220****225@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno012@upy.com",
+      "email_hash": "0bcbe3e79c187aed47d27b39ee0802c079c59ffb40ab634613c347aabd61d065"
     },
     {
-      "masked_email": "230****005@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno013@upy.com",
+      "email_hash": "14385708cb9a62f7a6e20cb8fcada6eb826930f79a025e90c14485f7f6b4711c"
     },
     {
-      "masked_email": "230****010@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno014@upy.com",
+      "email_hash": "b40f0063165b214c3c0f610b0473e1366e56ecdd2b9000748feaabbcf793d1ff"
     },
     {
-      "masked_email": "230****012@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno015@upy.com",
+      "email_hash": "fb565068900660d664c2c16b93fcea38d7ed95ea678b030efd2ca9704fe9dd0b"
     },
     {
-      "masked_email": "230****014@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno016@upy.com",
+      "email_hash": "273f3793010dd75232b0f6d8b1fc0b95f489afa3fe2297359bb46e91fd84ee5b"
     },
     {
-      "masked_email": "230****017@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno017@upy.com",
+      "email_hash": "0f90f21a5f4141d9741fa57ebf240cb73e6c3a62286ccf0cec4a6e5bd6a321c5"
     },
     {
-      "masked_email": "230****029@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno018@upy.com",
+      "email_hash": "78c3b9a4924d54edc43671226f5c3aef169ea87e9efe0414d1be15f31d8eecb4"
     },
     {
-      "masked_email": "230****036@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno019@upy.com",
+      "email_hash": "f8e0970c2a1f80b942234f0074ffb39e6724552d7b2c7689d65d7ace144d9884"
     },
     {
-      "masked_email": "230****037@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno020@upy.com",
+      "email_hash": "be152083823748522cd86858026d938aebfc4d7bc4c23bde92fcf701815ee3f7"
     },
     {
-      "masked_email": "230****045@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno021@upy.com",
+      "email_hash": "c35424d006ca0979277dd7edba5873fb35d5db7fd859f1c0bb47b911aeda3bef"
     },
     {
-      "masked_email": "230****048@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno022@upy.com",
+      "email_hash": "52b85af8db3eb3bce64613a64c382c3e441f61b6dff65cc55937f56524e98c22"
     },
     {
-      "masked_email": "230****050@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno023@upy.com",
+      "email_hash": "84c1996dad12672ee0979e93da55c1f3a4f9db0dc2dafc17ad0519e685b7484c"
     },
     {
-      "masked_email": "230****057@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno024@upy.com",
+      "email_hash": "130c7cd1ea314dcc61e296f0586f80bdde94950845d599c71b42bab81a31c42a"
     },
     {
-      "masked_email": "230****062@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno025@upy.com",
+      "email_hash": "6a4cffb29c053527443138c8c6ecd47cf3f722e7fcf4a9ec39dfdddde6dd3919"
     },
     {
-      "masked_email": "230****063@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno026@upy.com",
+      "email_hash": "92e85c1ea8bc56ea9d168d9078f42cb070f067354aae15204ab720ab15895504"
     },
     {
-      "masked_email": "230****066@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno027@upy.com",
+      "email_hash": "af472ea1a40bb0c94dd32788ffad96e1a7de86f1310043698faa2f21ed106393"
     },
     {
-      "masked_email": "230****070@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno028@upy.com",
+      "email_hash": "59a901c94abc60ef8bda3e6d841edc2805b99ec8120aa5b76adfb96d124221ca"
     },
     {
-      "masked_email": "230****084@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno029@upy.com",
+      "email_hash": "93e88db31e175efde191ed9b75a6076220a714f35995a6b3e8535aa8aeb678ca"
     },
     {
-      "masked_email": "230****085@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno030@upy.com",
+      "email_hash": "53ef098778babbcf37aa4a29ddcf1a7c6185dbe30e20043fa25807213a7d9c6f"
     },
     {
-      "masked_email": "230****087@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno031@upy.com",
+      "email_hash": "87e1505d8c685c879895dce2cdb4214199729b2542daa612d83052c952ce2cda"
     },
     {
-      "masked_email": "230****100@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno032@upy.com",
+      "email_hash": "2ca087ecb1cf7c29a8e35aad8388cd444f6cd52b2083ca67b6d6aa86b8a0320c"
     },
     {
-      "masked_email": "230****102@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno033@upy.com",
+      "email_hash": "cf3f24f0d93beefe6e8361414201b8fb3b2cb252a603d13e57a46798455cd44e"
     },
     {
-      "masked_email": "230****103@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno034@upy.com",
+      "email_hash": "f8a168b7512bc7c2b12ef03634a33e6658db208a0314b55c285c5cc301abb22d"
     },
     {
-      "masked_email": "230****104@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno035@upy.com",
+      "email_hash": "9656125455f39de64830e5da997dde0fe4984784ca8a2dc1a809e909af568a50"
     },
     {
-      "masked_email": "230****113@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno036@upy.com",
+      "email_hash": "300e59b569acdf60e456656e56426cb87d454192bef6b55902c8db0000662665"
     },
     {
-      "masked_email": "230****115@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno037@upy.com",
+      "email_hash": "50b31516dcdb4f0626e88c0bbcdc513bdda5d12b9411445efbebe17b5a566865"
     },
     {
-      "masked_email": "230****119@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno038@upy.com",
+      "email_hash": "e688a8f73212b5a5d5c68353926a7e35e23730873ea3565991b098d09a40c92b"
     },
     {
-      "masked_email": "230****127@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno039@upy.com",
+      "email_hash": "b8cb3280c1ea5d239a855587a651569b634038f797702400555b231f38d40e6a"
     },
     {
-      "masked_email": "230****128@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno040@upy.com",
+      "email_hash": "f222d896bfe46880ec571bc4f9ea28465b31879a5dbd6e68ef58a1cfd516b5ef"
     },
     {
-      "masked_email": "230****137@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno041@upy.com",
+      "email_hash": "f993c79f5f81bc96c7f9a887b89e7ff0bb65cdad5b24233552638121fda41d7a"
     },
     {
-      "masked_email": "230****154@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno042@upy.com",
+      "email_hash": "be5a5ef48e941619567da32618912502ebd4812d655f682c01044f99210e7f8a"
     },
     {
-      "masked_email": "230****158@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno043@upy.com",
+      "email_hash": "219d9361f273024619d5096c8f0dbed734dda1aa81bcd8e7765540f4d420a0d7"
     },
     {
-      "masked_email": "230****161@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno044@upy.com",
+      "email_hash": "5e1c836975a9a076c18232c9899e99215959bed6c809505a65c18ec25c3cf97c"
     },
     {
-      "masked_email": "230****166@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno045@upy.com",
+      "email_hash": "524909980a94d9f71ffe9528804d35eea6b331042824e3d541334556d4c7049a"
     },
     {
-      "masked_email": "230****170@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno046@upy.com",
+      "email_hash": "65f18bea4426f090e7c45624188e04beb99a75176a38e79de3d14ead55956187"
     },
     {
-      "masked_email": "230****178@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno047@upy.com",
+      "email_hash": "6a4c685b619e9fd9873fab3586a9c67c30b1a2cef26b9b85b5914bc05adcb69f"
     },
     {
-      "masked_email": "230****179@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno048@upy.com",
+      "email_hash": "fd6c028f92a312793d1074144ea6d28885833040a5ec017a585292d9f9bc9dd3"
     },
     {
-      "masked_email": "230****180@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno049@upy.com",
+      "email_hash": "4b6ca5d2381dd41ba29e41e64f75534ea4de71f8d182edd13db30ffc9b40274f"
     },
     {
-      "masked_email": "230****182@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno050@upy.com",
+      "email_hash": "6ce28500b62f20520b0b5b1bfe4223965bbdbd3431fb6a1e1640504568e0a8ff"
     },
     {
-      "masked_email": "230****184@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno051@upy.com",
+      "email_hash": "87fcf84cb6552026e7394199513ac91781d687ac16589a4100d464d6f7a75f89"
     },
     {
-      "masked_email": "230****191@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno052@upy.com",
+      "email_hash": "5c3014fa6eaa026f83bce4fd8467423956ac81fa764e64a3d935332d98983481"
     },
     {
-      "masked_email": "230****196@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno053@upy.com",
+      "email_hash": "f7edffc1639ef9f2d92eaf76da6a71688a1080e0c86424b4e71eb4799bee6734"
     },
     {
-      "masked_email": "230****197@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno054@upy.com",
+      "email_hash": "e24c318bcfa1aa20b6c5506c4a6c3d573302ae41423c767df6d22fb50c215f12"
     },
     {
-      "masked_email": "230****200@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno055@upy.com",
+      "email_hash": "baa196d2a67c48eaacab7330daaf3cf92a247bab1e79f9f93559e1d512779691"
     },
     {
-      "masked_email": "230****218@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno056@upy.com",
+      "email_hash": "96dcf36a656a91b4968dd22415fd8542a8f1dbfb274c80650a09bb6038974c40"
     },
     {
-      "masked_email": "230****223@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno057@upy.com",
+      "email_hash": "92dccab844f9e6c4c5aaddff6db4bf265aabc3b869e3907e0dabb2cfb5c1b866"
     },
     {
-      "masked_email": "230****235@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno058@upy.com",
+      "email_hash": "d2411dff2a6dfa359e0ed8845d11a68221f85c854b11b2a08abc2029368de949"
     },
     {
-      "masked_email": "240****002@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno059@upy.com",
+      "email_hash": "fcd6fd48c23f9743d73c93eb1938e9d0d01b9ca5865c8f3d2b9ab483bd286155"
     },
     {
-      "masked_email": "240****004@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno060@upy.com",
+      "email_hash": "549e650955038d8306bed4ef8a8ae40a5ee57397d53984a120801576a4b3e39e"
     },
     {
-      "masked_email": "240****005@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno061@upy.com",
+      "email_hash": "67cf303d73c279c552372045299cf1e8d1bdcbbf8f19bb34d1c5125032715daa"
     },
     {
-      "masked_email": "240****009@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno062@upy.com",
+      "email_hash": "377274407b7a2ee9c5f919afcdbe14eaa2d6fd1284a120bea6b901584e0c012c"
     },
     {
-      "masked_email": "240****015@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno063@upy.com",
+      "email_hash": "86350e5e28d02081cc7efa7b9c5aaab9df765a93da81442d92c3eb215795b5ae"
     },
     {
-      "masked_email": "240****023@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno064@upy.com",
+      "email_hash": "13d021a90c74630a7cd1aa3649696dc385f4cb56227ed4b73e790f7b54b402e9"
     },
     {
-      "masked_email": "240****028@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno065@upy.com",
+      "email_hash": "8f151edb0d3f46d000cffebccf17224a1fd5a943bcbba05cae83f1fd0e2a1bba"
     },
     {
-      "masked_email": "240****032@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno066@upy.com",
+      "email_hash": "28a6f2e8d731dc5a0d25bbf6d674b66b167848c639820901468edb925866b30b"
     },
     {
-      "masked_email": "240****041@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno067@upy.com",
+      "email_hash": "67d32ead9b0218a3fcf526d0aadf98e7803feb19d9efdb24ad66d3cca511d832"
     },
     {
-      "masked_email": "240****048@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno068@upy.com",
+      "email_hash": "0db1799bd80b6f21086ff13328c97b6e0726e0306bb3ca205865d9722949a90d"
     },
     {
-      "masked_email": "240****050@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno069@upy.com",
+      "email_hash": "1704e3b14a9fbf0b75d404185f1a75b9a8f34501180051a14f898cd196b4946f"
     },
     {
-      "masked_email": "240****053@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno070@upy.com",
+      "email_hash": "d7c30e9d1b860d68a60714f7470cb93e37cec0368c11e4599fb1de1e36772d5b"
     },
     {
-      "masked_email": "240****062@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno071@upy.com",
+      "email_hash": "7215faed65c3b232ed423ae67aa3003cd701d1b8e005685ce1ba9985b343ed8a"
     },
     {
-      "masked_email": "240****064@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno072@upy.com",
+      "email_hash": "a023e9ab3a0f1946ea1d029a0373945019cd2989f28d55c6a2ebc970d817e852"
     },
     {
-      "masked_email": "240****066@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno073@upy.com",
+      "email_hash": "9b9041f68f4c30fcaa6a5b2dff25d29cd3542dd207f52d43f1153e42ff982adb"
     },
     {
-      "masked_email": "240****074@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno074@upy.com",
+      "email_hash": "2522b357ed7e201446161eff0f8e4e10beb88ff5723fe6fb689123403b8cabb1"
     },
     {
-      "masked_email": "240****084@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno075@upy.com",
+      "email_hash": "d5b51ad4df001531fc3c11863da6179f4dd5c95eb1a5085bf53c09914a16bf02"
     },
     {
-      "masked_email": "240****086@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno076@upy.com",
+      "email_hash": "dbbf745f610d1ad05e00b0c2096959ccbb836deccbc9c6bed4cc54f05a09a90f"
     },
     {
-      "masked_email": "240****088@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno077@upy.com",
+      "email_hash": "6ca650181b9421f94d1428caa311ba6da7192a8e9010b01ed021bbde6c5c401a"
     },
     {
-      "masked_email": "240****096@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno078@upy.com",
+      "email_hash": "70866b2493b134d1636a547bf55fac557b2954c67703923c13fa3142c7d5e1c7"
     },
     {
-      "masked_email": "240****100@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno079@upy.com",
+      "email_hash": "f7dc760f915f1dfe0e87a23f212d8d10943cd58e08432086a9ee7fff7556bb34"
     },
     {
-      "masked_email": "240****108@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno080@upy.com",
+      "email_hash": "0421dd51ba7d0a7fb006edd241c2d649bbab79fd379f2f07c6887a6924d4e24f"
     },
     {
-      "masked_email": "240****117@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno081@upy.com",
+      "email_hash": "2f5368e40240635bd90ea5a2250d1c7af4dd9f864bf006f701556dbaf31eda16"
     },
     {
-      "masked_email": "240****129@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno082@upy.com",
+      "email_hash": "0405bc068e0d36d7f92e38d4d78239547376279459738092914040c5e6f826cd"
     },
     {
-      "masked_email": "240****134@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno083@upy.com",
+      "email_hash": "ec2c61dc24384fdc6282071e84308838f365e9b045719ff8420a73fe787c1345"
     },
     {
-      "masked_email": "240****150@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno084@upy.com",
+      "email_hash": "6864fd2ffc81a797c5ddedf42a928493edbce4ae1c2587a241040d93e8af6536"
     },
     {
-      "masked_email": "240****151@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno085@upy.com",
+      "email_hash": "6f367ca974cbf15c6a6f9d129de0870cad4072a2c80a9d2c004128394a28b7cf"
     },
     {
-      "masked_email": "240****154@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno086@upy.com",
+      "email_hash": "4df22d3452d8a6025c5909c221213849402a39286409c9ea6a859dc2386f06e9"
     },
     {
-      "masked_email": "240****155@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno087@upy.com",
+      "email_hash": "575d0e938a153c4163b71067e09ce5fe787c549d3302ca271f04a022b68fe369"
     },
     {
-      "masked_email": "240****161@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno088@upy.com",
+      "email_hash": "5be15bcf8faeae1744b7b5823a2d40ee412f2e16bf488abe4d7d2e22a9157fc9"
     },
     {
-      "masked_email": "240****164@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno089@upy.com",
+      "email_hash": "3ffb887f124c759428874d9f77ad1df6ad4809814ade595aa0832bb31c251372"
     },
     {
-      "masked_email": "240****171@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno090@upy.com",
+      "email_hash": "699b41c9e8cba4759cb689c27a6b770e3c243ab86c3c3414e98b570093d14987"
     },
     {
-      "masked_email": "240****172@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno091@upy.com",
+      "email_hash": "a1efab859e2004e71d25085624151d4210fb2224ddf19114ce4713f0f62a6a2b"
     },
     {
-      "masked_email": "240****185@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno092@upy.com",
+      "email_hash": "5c35e318b180f0cebb05f84832e83c619421f8282009232d0ed27ce86952bfb0"
     },
     {
-      "masked_email": "240****188@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno093@upy.com",
+      "email_hash": "8381e43d6045ae297adb80829a96cc65946c2114a92ceb8bdfdeea6b45cf653a"
     },
     {
-      "masked_email": "240****189@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno094@upy.com",
+      "email_hash": "c3c95a61d264f1fa63b91818f17bd5ea03ddc80ff8ec435eb269248e37ac91bd"
     },
     {
-      "masked_email": "240****195@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno095@upy.com",
+      "email_hash": "bce0d73d86ec930bea3d9699d4af92f57bb0d496d2c297439ec2a72052d886bd"
     },
     {
-      "masked_email": "240****198@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno096@upy.com",
+      "email_hash": "633401c97e965d97014f24ec23787b27d279538a7dd3dcbe3c660bf21ded11cf"
     },
     {
-      "masked_email": "240****202@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno097@upy.com",
+      "email_hash": "b85b4f5bae3bcd0c5557f20b6bb8f49820ec48d3d6cce6196009d49c4b660ab7"
     },
     {
-      "masked_email": "240****203@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno098@upy.com",
+      "email_hash": "3ac3327988067d1d8ecd2d778d5d5c119817dcffb87686b4c2729e16fcb375ef"
     },
     {
-      "masked_email": "240****206@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno099@upy.com",
+      "email_hash": "1b992661cc9c39003a85d7e12ddc7687e8311beab5fab7f4dca02c5cc19f1b5f"
     },
     {
-      "masked_email": "240****210@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno100@upy.com",
+      "email_hash": "52312824465653066dc242e1cedb05f07e1e08d2a416f0dc0d835208d1d68c4d"
     },
     {
-      "masked_email": "240****211@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno101@upy.com",
+      "email_hash": "288a8993b663b9043fbb3ffe27b9af4652a9522a261d06fd01a718b29d7578c4"
     },
     {
-      "masked_email": "240****217@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno102@upy.com",
+      "email_hash": "9e4f68305f91b28735612e00838dbe21c2144c57d6a899aa94733a7fe5852191"
     },
     {
-      "masked_email": "240****222@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno103@upy.com",
+      "email_hash": "a133c390c4d8be8b20c9df36ca0e9565cfd5500e9ada31c394f160289cd76a91"
     },
     {
-      "masked_email": "240****225@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno104@upy.com",
+      "email_hash": "6793425719aca140bcb2cbb1b7a2070088ebea80a0d7afa41eb7445c07f625ce"
     },
     {
-      "masked_email": "240****234@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno105@upy.com",
+      "email_hash": "2d6aaa22cd15be7f5901dfa994104a9ecee4a60015ba6558266a0b022a967bec"
     },
     {
-      "masked_email": "240****239@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno106@upy.com",
+      "email_hash": "57c7efe89913edf7cc964c608246152cf2ab42a47e5b11f1b54fa4679bde9486"
     },
     {
-      "masked_email": "240****244@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno107@upy.com",
+      "email_hash": "4565b7e4269f72eddd9cd5dc2f84091fd5a50c41107b6cd9782cf2514572a6f2"
     },
     {
-      "masked_email": "240****250@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno108@upy.com",
+      "email_hash": "fe68059dc99350f750a1b5257a70c5f4218e459b36d446161cefcfb6bcda4c8d"
     },
     {
-      "masked_email": "240****251@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno109@upy.com",
+      "email_hash": "dc76a3f14dc1f2865b3026dbfeab5ac29d2208393956d40e016fc545bebeeb7c"
     },
     {
-      "masked_email": "250****014@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno110@upy.com",
+      "email_hash": "82d26f9feb068b41d0182e62ba29576a98709e0491cbf3cc8f66c27f48fba565"
     },
     {
-      "masked_email": "250****016@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno111@upy.com",
+      "email_hash": "598345be339f4ceaff12e3a5eec8a0c8b2e3a1331dab67d2ebf5a5406fc2f0a7"
     },
     {
-      "masked_email": "250****019@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno112@upy.com",
+      "email_hash": "e00e4da6c6a7848d6ee9562441790ad6b597e2c185ebec96f2eccdc74a8d0ef7"
     },
     {
-      "masked_email": "250****022@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno113@upy.com",
+      "email_hash": "059f76b8a450439a513d3b144afd303b2d0f1ccd660676ee0a0afa39c9bdc4ef"
     },
     {
-      "masked_email": "250****023@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno114@upy.com",
+      "email_hash": "50f7b636cb9e840ac3b78de1c5d59d6b59a16b26516245f548c835b5165de4c4"
     },
     {
-      "masked_email": "250****028@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno115@upy.com",
+      "email_hash": "f54b33dc778026d3ca0e490ded8785f7846be559792cd0dcdf2ce79c31b25525"
     },
     {
-      "masked_email": "250****031@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno116@upy.com",
+      "email_hash": "1395890567468734e0490a264a9c6b93b69c44f15108b2de942daac3acabefd6"
     },
     {
-      "masked_email": "250****032@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno117@upy.com",
+      "email_hash": "dc8e52f63d2b7d7128e5e3f04aa004105bf9d0503e8adfde1e699e798e4b1421"
     },
     {
-      "masked_email": "250****047@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno118@upy.com",
+      "email_hash": "b313063dd7d841c494fef42622ce9bcb9315ec7b179e7114bfc5f9bbbc84ef49"
     },
     {
-      "masked_email": "250****053@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno119@upy.com",
+      "email_hash": "ad5bbaad1f6a19c6459245ed9c8e1822ab06db22234c631cab622526f716e7c1"
     },
     {
-      "masked_email": "250****067@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno120@upy.com",
+      "email_hash": "2568fc40195e67a2f07d64319716cfe00bff906df19586e6332ea851082211b0"
     },
     {
-      "masked_email": "250****069@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno121@upy.com",
+      "email_hash": "f80ea450397e5854c53ce303f5f1d0450505f6913390be0f5711f7abc9d81ff0"
     },
     {
-      "masked_email": "250****073@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno122@upy.com",
+      "email_hash": "275e8524dcac60fb1ce14912fadbf78eb8e0f1297d03c7a061a4dc30c9a8129a"
     },
     {
-      "masked_email": "250****075@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno123@upy.com",
+      "email_hash": "58eda211bdfe853a87fc534e973b675104d8618566a4b7bf2b34a04fdc8b69bb"
     },
     {
-      "masked_email": "250****079@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno124@upy.com",
+      "email_hash": "9493ea0efc32f2a4ddfffd69027d4bba71b23662011f1512e65c7474af1ef793"
     },
     {
-      "masked_email": "250****083@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno125@upy.com",
+      "email_hash": "d702148c8d1da4a149d6b0c6a30ed320556ba09d845d5b8f5d41e2a45ec4f242"
     },
     {
-      "masked_email": "250****090@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno126@upy.com",
+      "email_hash": "cbea8d0c7a1b1fd8f3328336517392333b0a0b83579319f098d8c0549bb15bba"
     },
     {
-      "masked_email": "250****095@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno127@upy.com",
+      "email_hash": "90ed8a617c996c79a82c3f99d9cecc39eaa563259c262630a9dc92d0f2a16287"
     },
     {
-      "masked_email": "250****098@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno128@upy.com",
+      "email_hash": "56a1394e514a43d781df82145920ce65d3b849812be3093b067fdd9ce950b309"
     },
     {
-      "masked_email": "250****099@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno129@upy.com",
+      "email_hash": "a0a7fed2fb10434e77c2d2f8e7cca484820c5a29b239ff17c25ae9e404db640d"
     },
     {
-      "masked_email": "250****102@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno130@upy.com",
+      "email_hash": "11e7b5af2ef5847551604ff15721a5e9f164bb98d9b1422393e2e018f0779707"
     },
     {
-      "masked_email": "250****103@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno131@upy.com",
+      "email_hash": "28d70a0c5a4d0fda8bf313219619debb79e84a43ff1a3c791ca2f05e5a153368"
     },
     {
-      "masked_email": "250****105@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno132@upy.com",
+      "email_hash": "3e070d49d10db9f2fd2d512d5ac520e13468fbbea54f93710bae5b094ea6d287"
     },
     {
-      "masked_email": "250****108@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno133@upy.com",
+      "email_hash": "c6e4d178d2a6d881a2a82966689dc346b8cd9f783a111b908db1ca11105e94e8"
     },
     {
-      "masked_email": "250****114@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno134@upy.com",
+      "email_hash": "d9b66050de8206c70b4d68a0ccb5df7a99db279b7aa006310743d15743f258cb"
     },
     {
-      "masked_email": "250****124@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno135@upy.com",
+      "email_hash": "f2d96d64de6e3e4a6bf70ba132124747c100b6916ac67cd7e90bad25993f7a13"
     },
     {
-      "masked_email": "250****132@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno136@upy.com",
+      "email_hash": "08c15c1a84f9d2b0a3486b207471630d9cbb882d62dd2ef13012c457608740c1"
     },
     {
-      "masked_email": "250****140@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno137@upy.com",
+      "email_hash": "8f7ae77abeb5e4149f12749c2335249db7f8ca5327cccafddceb3a71005c5d61"
     },
     {
-      "masked_email": "250****142@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno138@upy.com",
+      "email_hash": "eb7536dabe87e3deccd4f9e084de3047cecf001cd41af2af1b11cf13569e268d"
     },
     {
-      "masked_email": "250****145@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno139@upy.com",
+      "email_hash": "5fe7e9b0481f965af5744e90acf89552b25f14ba082c6554022ff815977d71a9"
     },
     {
-      "masked_email": "250****151@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno140@upy.com",
+      "email_hash": "0e974fa5616d63783b6d8cd50077d6ed8730ceea18255bdc947ee5bd7b681331"
     },
     {
-      "masked_email": "250****153@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno141@upy.com",
+      "email_hash": "73a5d25845c47966552c220ab38b79caae0b1bcc0eaa482f429180c4a89e0bed"
     },
     {
-      "masked_email": "250****164@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno142@upy.com",
+      "email_hash": "626477b3d29c400f938176a399fe9b6fa3bf74c71bf61d5cd8b55727c56d6369"
     },
     {
-      "masked_email": "250****168@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno143@upy.com",
+      "email_hash": "1e1cc5cf0e7982feb8fb4fbe24cd503c5d007e527e0c9539a2084a7865811c67"
     },
     {
-      "masked_email": "250****171@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno144@upy.com",
+      "email_hash": "012b1dfd866dea693c3aa1c2914c517d020964c357a95cb8bacbda13e0fe78b4"
     },
     {
-      "masked_email": "250****174@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno145@upy.com",
+      "email_hash": "2e470c8d8713d293a90cf1ab0d41e939bf8a9631c58742a13655403bcba9ec7f"
     },
     {
-      "masked_email": "250****181@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno146@upy.com",
+      "email_hash": "591556e839b66948d3f72103c75126df53499409889dca1b90d1cf0480fc31e0"
     },
     {
-      "masked_email": "250****186@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno147@upy.com",
+      "email_hash": "b6f1657d03b01de62ada1c4e03fe7108286ace6500b0567454a64b1ce64bedbd"
     },
     {
-      "masked_email": "250****192@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno148@upy.com",
+      "email_hash": "c8e9eb1773d42de7fd4e4bd9eb35417cc76698c3fe29e219001a4ca224ad0dde"
     },
     {
-      "masked_email": "250****195@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno149@upy.com",
+      "email_hash": "f119395d9f46dd098accfbe5acd46950a0f41b3f24d7e3a9882f5289ea56a5df"
     },
     {
-      "masked_email": "250****199@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno150@upy.com",
+      "email_hash": "080e36a2b50867a0b4c785151977e0f2b674013c6a19e8e212c42982723979f7"
     },
     {
-      "masked_email": "250****202@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno151@upy.com",
+      "email_hash": "83ad991cc38ce55cb2ec5d6708e2624066d5ea11e731631ad458b4d2f06d6adf"
     },
     {
-      "masked_email": "250****209@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno152@upy.com",
+      "email_hash": "6bf4a59d196a7a0ac58fee5037a98a80ae9f6d2974d3d1f8f1ed1a904911364e"
     },
     {
-      "masked_email": "250****210@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno153@upy.com",
+      "email_hash": "825766448efb74a51a31751acfc441b3c65dd5b4291c58a59e1c990bda030b5b"
     },
     {
-      "masked_email": "250****212@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno154@upy.com",
+      "email_hash": "f66dd42917220234640c3b6def5cf8750e28d036a30e9c5980b934c8ec34a02d"
     },
     {
-      "masked_email": "250****219@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno155@upy.com",
+      "email_hash": "27531cfb7e73cbd125bb29a1d407d91f874a2783d2c09ab900e967a07008c471"
     },
     {
-      "masked_email": "250****225@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno156@upy.com",
+      "email_hash": "e32e4117505f878fddd26287729fb7818ecf3aeed52190b58ef857e9446b5e29"
     },
     {
-      "masked_email": "250****227@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno157@upy.com",
+      "email_hash": "edd11be932799dca1f4d3ffa236879e322a5a15e085ff299675337fb84ccd0e0"
     },
     {
-      "masked_email": "250****236@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno158@upy.com",
+      "email_hash": "238b953e006a87301dedb3938b27eec20e1d15113a5a16fb84749ca34084b1f3"
     },
     {
-      "masked_email": "250****237@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno159@upy.com",
+      "email_hash": "d159002a7ee7543aeed6a0cb8aa63b928e3ec73f40bbcafbc2fb86c6d742ba7a"
     },
     {
-      "masked_email": "250****264@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno160@upy.com",
+      "email_hash": "49636b1d279ce939faaeceea23eaf21348d295e481dd1561c5592817ce315fc2"
     },
     {
-      "masked_email": "250****265@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno161@upy.com",
+      "email_hash": "2fcaffc51973645f8ec578c02b5c723147905edadbcf42ee87c46c6b01d8eb46"
     },
     {
-      "masked_email": "250****266@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno162@upy.com",
+      "email_hash": "ef5c8c18e9559804f15865d0572c50b2c900fd7943855e4a801af2c27610aba0"
     },
     {
-      "masked_email": "250****267@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno163@upy.com",
+      "email_hash": "286a5b99595e2e48c5c0f4361e8905c29d5a034c4ff7de53f1041d0494d595ca"
     },
     {
-      "masked_email": "250****269@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno164@upy.com",
+      "email_hash": "0bec122da0239115ba0155aae1f54892e7db2954d28bf4c63bdbaef8fbeb871a"
     },
     {
-      "masked_email": "250****271@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno165@upy.com",
+      "email_hash": "fcf148acaa1cac8ac84aafbcb5af5941dcd9d008392a1fa723e2ff9641831411"
     },
     {
-      "masked_email": "250****274@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno166@upy.com",
+      "email_hash": "96299401e771c2459ad36625b6dcadf3f76f3902e015eb76be5416f6c55bf236"
     },
     {
-      "masked_email": "250****275@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno167@upy.com",
+      "email_hash": "282e488fc3c2a750ee46cd05a2ed69b796f0ffc2c6a639c0343170ef5c7080ac"
     },
     {
-      "masked_email": "250****277@upy.edu.mx",
-      "registered_at": null
+      "alias": "alumno168@upy.com",
+      "email_hash": "8724cae1bab437391d3f09ea30683b306924b50341963dbb27a986837961ac84"
     }
   ]
 }
