@@ -1,70 +1,53 @@
 {
-  "updated_at": "2026-06-05T19:35:59",
-  "total": 270,
-  "participants": [
+  "updated_at": "2026-06-26T02:18:01",
+  "total_registered": 302,
+  "total_valid_raffle_participants": 204,
+  "total": 204,
+  "draw_done": true,
+  "draw": {
+    "method": "Selección aleatoria con reemplazo",
+    "winner_count": 3,
+    "eligible_total": 204,
+    "total_registered": 302
+  },
+  "winners": [
     {
-      "alias": "alumno001@upy.com",
-      "email_hash": "b7b1a00f014c03408f969d0f9db551368cd5b1b4782b213c618cf2ee752e942c"
+      "prize": 1,
+      "alias": "alumno165@upy.com"
     },
+    {
+      "prize": 2,
+      "alias": "alumno190@upy.com"
+    },
+    {
+      "prize": 3,
+      "alias": "alumno142@upy.com"
+    }
+  ],
+  "participants": [
     {
       "alias": "alumno002@upy.com",
       "email_hash": "3182c1375f46480c8932b7d8897607d444fb671e59b5a9332ffa776ccd5a7d87"
-    },
-    {
-      "alias": "alumno003@upy.com",
-      "email_hash": "6a28bd9e4cfe7e35065bab050d086b57bc63c31a61738d23e1ee7e7db2a3c60a"
-    },
-    {
-      "alias": "alumno004@upy.com",
-      "email_hash": "b260324e21656c078600b9de61b90073c50de8d2a4a1f2114ba4fe0966ae099f"
     },
     {
       "alias": "alumno005@upy.com",
       "email_hash": "67c980f13fd9ba066911e177f6d0f6cc4efb8c6600f4b39b0a935c0005bdabef"
     },
     {
-      "alias": "alumno006@upy.com",
-      "email_hash": "5c4c868184b1ef11f3b14a9dfef054ff3c821a8b19f32f69d5ec69d3f5e816e7"
-    },
-    {
-      "alias": "alumno007@upy.com",
-      "email_hash": "fd9d1c68ae4378e257ced82e9e17fce1c9fbd1372ee4a72a78e1e086b2286cb5"
-    },
-    {
-      "alias": "alumno008@upy.com",
-      "email_hash": "0514d45ac8063958a90f67ddc0ed2f357172a87de750c7ee214a9055c3a23608"
-    },
-    {
       "alias": "alumno009@upy.com",
       "email_hash": "5b10e17e29da3219c525dc55b8610262276de17549e559372276d67426e571e7"
-    },
-    {
-      "alias": "alumno010@upy.com",
-      "email_hash": "3acf568eb2dd0da4453f20eecd6f317aea8d463deb994f9b5c82d42b05f12460"
     },
     {
       "alias": "alumno011@upy.com",
       "email_hash": "ded9aa69d2c7f31c5920ae1e53b497692e6e6bdd57362c1d3d1bb5fc5d6e0742"
     },
     {
-      "alias": "alumno012@upy.com",
-      "email_hash": "637a59bcce22ff3a399562f3c81570ae3508dc977e8387deb41fe4b3ce2c72ac"
-    },
-    {
       "alias": "alumno013@upy.com",
       "email_hash": "b7f3a9c1d0770c469f5ac56c51a46c70efd67e2c30ba0d998401928749a3b6d4"
     },
     {
-      "alias": "alumno014@upy.com",
-      "email_hash": "ac9931195cba1f8aec79419a22c666add2270972c8c3571cb0a2295a4e5472f8"
-    },
-    {
       "alias": "alumno015@upy.com",
       "email_hash": "292ede96016b2bed580fc4a9136fdc8e7eb8045c60306a86da2a4f3c1c45e40e"
-    },
-    {
-      "alias": "alumno016@upy.com",
-      "email_hash": "85838f29a6a8fe0daef4c8b68c56d764f1f837fdd7491dbd79ecc2cdde6583a0"
     },
     {
       "alias": "alumno017@upy.com",
@@ -73,10 +56,6 @@
     {
       "alias": "alumno018@upy.com",
       "email_hash": "3ae770c0087b3e44149b6c9c41b48ffdef4cf52fc88f61b4186b0f367711b328"
-    },
-    {
-      "alias": "alumno019@upy.com",
-      "email_hash": "0bcbe3e79c187aed47d27b39ee0802c079c59ffb40ab634613c347aabd61d065"
     },
     {
       "alias": "alumno020@upy.com",
@@ -99,10 +78,6 @@
       "email_hash": "fb565068900660d664c2c16b93fcea38d7ed95ea678b030efd2ca9704fe9dd0b"
     },
     {
-      "alias": "alumno025@upy.com",
-      "email_hash": "273f3793010dd75232b0f6d8b1fc0b95f489afa3fe2297359bb46e91fd84ee5b"
-    },
-    {
       "alias": "alumno026@upy.com",
       "email_hash": "9f5b28b84debd346c9a288bef3b3a3645b71d85739d6d903bd3d0a37159f476c"
     },
@@ -121,10 +96,6 @@
     {
       "alias": "alumno030@upy.com",
       "email_hash": "78c3b9a4924d54edc43671226f5c3aef169ea87e9efe0414d1be15f31d8eecb4"
-    },
-    {
-      "alias": "alumno031@upy.com",
-      "email_hash": "3fa6419be28807418b38ab984cb62c504815ce4f570a05ffa37369158305d33b"
     },
     {
       "alias": "alumno032@upy.com",
@@ -147,10 +118,6 @@
       "email_hash": "444541f6a0f05730cbbe27516b297d34153b15f81843b09f5b99b71a36b4f3ad"
     },
     {
-      "alias": "alumno037@upy.com",
-      "email_hash": "c35424d006ca0979277dd7edba5873fb35d5db7fd859f1c0bb47b911aeda3bef"
-    },
-    {
       "alias": "alumno038@upy.com",
       "email_hash": "d5eb27407036fc79f2f244b30ca14012a09c5dfdf79794dd41ae6ece952987d4"
     },
@@ -161,10 +128,6 @@
     {
       "alias": "alumno040@upy.com",
       "email_hash": "84c1996dad12672ee0979e93da55c1f3a4f9db0dc2dafc17ad0519e685b7484c"
-    },
-    {
-      "alias": "alumno041@upy.com",
-      "email_hash": "39197a813d6c20f8cde65f0b7f0dee629fbb5bba3d14c05a7af39ff45d2948b4"
     },
     {
       "alias": "alumno042@upy.com",
@@ -181,10 +144,6 @@
     {
       "alias": "alumno045@upy.com",
       "email_hash": "6a4cffb29c053527443138c8c6ecd47cf3f722e7fcf4a9ec39dfdddde6dd3919"
-    },
-    {
-      "alias": "alumno046@upy.com",
-      "email_hash": "92e85c1ea8bc56ea9d168d9078f42cb070f067354aae15204ab720ab15895504"
     },
     {
       "alias": "alumno047@upy.com",
@@ -207,36 +166,16 @@
       "email_hash": "87e1505d8c685c879895dce2cdb4214199729b2542daa612d83052c952ce2cda"
     },
     {
-      "alias": "alumno052@upy.com",
-      "email_hash": "300c6cc74854863d6d489851a9c5f6ae938a0049be10c65b618b7494b1cdfbf2"
-    },
-    {
       "alias": "alumno053@upy.com",
       "email_hash": "4527f01baba16f196ecf9ed84d6bdde0e23ca4d08310cc757225b58e03103b21"
-    },
-    {
-      "alias": "alumno054@upy.com",
-      "email_hash": "fdc9c18ede32ddaf1fdca2688346966e842c7a2222283ee20894d9b0ab75ecc4"
     },
     {
       "alias": "alumno055@upy.com",
       "email_hash": "7cf256b3b7301c5aa2c5a8089b781f79dc3508abe7826123a603a758f46713ec"
     },
     {
-      "alias": "alumno056@upy.com",
-      "email_hash": "2ca087ecb1cf7c29a8e35aad8388cd444f6cd52b2083ca67b6d6aa86b8a0320c"
-    },
-    {
       "alias": "alumno057@upy.com",
       "email_hash": "9d9242df37edd9a4592cb68e14f0df339e26fa59fae2bf01daa772e294381219"
-    },
-    {
-      "alias": "alumno058@upy.com",
-      "email_hash": "cf3f24f0d93beefe6e8361414201b8fb3b2cb252a603d13e57a46798455cd44e"
-    },
-    {
-      "alias": "alumno059@upy.com",
-      "email_hash": "f8a168b7512bc7c2b12ef03634a33e6658db208a0314b55c285c5cc301abb22d"
     },
     {
       "alias": "alumno060@upy.com",
@@ -267,14 +206,6 @@
       "email_hash": "f222d896bfe46880ec571bc4f9ea28465b31879a5dbd6e68ef58a1cfd516b5ef"
     },
     {
-      "alias": "alumno067@upy.com",
-      "email_hash": "d5dcc0d8d99a442f8919c37cd6e3f639592abeda571ce8c1743d2932aa0ac1ee"
-    },
-    {
-      "alias": "alumno068@upy.com",
-      "email_hash": "3c150a99467167147fc1da783cdcc69dca3fb30d873d94fb1c03da4b08cb50f0"
-    },
-    {
       "alias": "alumno069@upy.com",
       "email_hash": "f993c79f5f81bc96c7f9a887b89e7ff0bb65cdad5b24233552638121fda41d7a"
     },
@@ -293,10 +224,6 @@
     {
       "alias": "alumno073@upy.com",
       "email_hash": "219d9361f273024619d5096c8f0dbed734dda1aa81bcd8e7765540f4d420a0d7"
-    },
-    {
-      "alias": "alumno074@upy.com",
-      "email_hash": "a3e0886193a588281c51520a133025fd9c63df458584e4c15513540407127acb"
     },
     {
       "alias": "alumno075@upy.com",
@@ -383,20 +310,12 @@
       "email_hash": "96dcf36a656a91b4968dd22415fd8542a8f1dbfb274c80650a09bb6038974c40"
     },
     {
-      "alias": "alumno096@upy.com",
-      "email_hash": "92dccab844f9e6c4c5aaddff6db4bf265aabc3b869e3907e0dabb2cfb5c1b866"
-    },
-    {
       "alias": "alumno097@upy.com",
       "email_hash": "fd5e554ae2fed84be4e347200cf6b7417513240ad7d825dcb6eb4eecb7f9fc20"
     },
     {
       "alias": "alumno098@upy.com",
       "email_hash": "d2411dff2a6dfa359e0ed8845d11a68221f85c854b11b2a08abc2029368de949"
-    },
-    {
-      "alias": "alumno099@upy.com",
-      "email_hash": "0b82b2a0e257362df5345fb6848a1862712ade4e17ff48211428bcf0b6533aad"
     },
     {
       "alias": "alumno100@upy.com",
@@ -407,20 +326,8 @@
       "email_hash": "549e650955038d8306bed4ef8a8ae40a5ee57397d53984a120801576a4b3e39e"
     },
     {
-      "alias": "alumno102@upy.com",
-      "email_hash": "67cf303d73c279c552372045299cf1e8d1bdcbbf8f19bb34d1c5125032715daa"
-    },
-    {
-      "alias": "alumno103@upy.com",
-      "email_hash": "377274407b7a2ee9c5f919afcdbe14eaa2d6fd1284a120bea6b901584e0c012c"
-    },
-    {
       "alias": "alumno104@upy.com",
       "email_hash": "86350e5e28d02081cc7efa7b9c5aaab9df765a93da81442d92c3eb215795b5ae"
-    },
-    {
-      "alias": "alumno105@upy.com",
-      "email_hash": "ccf32fb17af0c4331c5751cda81d76bb1f7fbdaf469981181d7b732046d97c79"
     },
     {
       "alias": "alumno106@upy.com",
@@ -431,20 +338,8 @@
       "email_hash": "13d021a90c74630a7cd1aa3649696dc385f4cb56227ed4b73e790f7b54b402e9"
     },
     {
-      "alias": "alumno108@upy.com",
-      "email_hash": "835fdb34fa928482b26d9282c3eb6c1e8c548efce21576e981c234983229f8bf"
-    },
-    {
-      "alias": "alumno109@upy.com",
-      "email_hash": "8f151edb0d3f46d000cffebccf17224a1fd5a943bcbba05cae83f1fd0e2a1bba"
-    },
-    {
       "alias": "alumno110@upy.com",
       "email_hash": "fad70a9ceb7224acd54d5435306380c6373fb0b398a420b5a1250a1fbf69ade0"
-    },
-    {
-      "alias": "alumno111@upy.com",
-      "email_hash": "e0bfe7063e5f244efe8df4d65d02d46ffe710ed9346d06e233f1eaf7a594359d"
     },
     {
       "alias": "alumno112@upy.com",
@@ -463,10 +358,6 @@
       "email_hash": "d5566955dfd6ef094f919def74cf663821b551b2837a36b314ca594ff8923be9"
     },
     {
-      "alias": "alumno116@upy.com",
-      "email_hash": "67d32ead9b0218a3fcf526d0aadf98e7803feb19d9efdb24ad66d3cca511d832"
-    },
-    {
       "alias": "alumno117@upy.com",
       "email_hash": "39c8322448d02cd86604f1c75015d700335518a682ab78aef77484cb0bfd2ef2"
     },
@@ -483,16 +374,8 @@
       "email_hash": "d7c30e9d1b860d68a60714f7470cb93e37cec0368c11e4599fb1de1e36772d5b"
     },
     {
-      "alias": "alumno121@upy.com",
-      "email_hash": "6c43a63814529b0ce7a8d7731312eb77c58486fbe60b97f1953e01f63344f0f0"
-    },
-    {
       "alias": "alumno122@upy.com",
       "email_hash": "c112219ccf6e75b61052d58df94ddf77da7fd044f2f80bf0e9852f1c8234362c"
-    },
-    {
-      "alias": "alumno123@upy.com",
-      "email_hash": "44df3d01cc1aed4fe34cb709dbcf3d119fa95c2b957b4090ae87b91d11aa59a7"
     },
     {
       "alias": "alumno124@upy.com",
@@ -507,16 +390,8 @@
       "email_hash": "9b9041f68f4c30fcaa6a5b2dff25d29cd3542dd207f52d43f1153e42ff982adb"
     },
     {
-      "alias": "alumno127@upy.com",
-      "email_hash": "7160cb023d4f004a4f0e5515b6a9265c4809c182dec65672e541f58858867c86"
-    },
-    {
       "alias": "alumno128@upy.com",
       "email_hash": "b265399cadf59721bac7b1330e4191255370b99f42deb0856c6567fa31cd919d"
-    },
-    {
-      "alias": "alumno129@upy.com",
-      "email_hash": "2522b357ed7e201446161eff0f8e4e10beb88ff5723fe6fb689123403b8cabb1"
     },
     {
       "alias": "alumno130@upy.com",
@@ -531,10 +406,6 @@
       "email_hash": "5d783a1e949a79b84c00b9b1a6f8cbe43e040e36b3334d24f6b2979989b195f7"
     },
     {
-      "alias": "alumno133@upy.com",
-      "email_hash": "fcaf68a92ab2b421fbc2cc6d22f941a09257ea8000e5fd317bf7964a9cd867b9"
-    },
-    {
       "alias": "alumno134@upy.com",
       "email_hash": "431885a71d3f571eb75057f661821402c5888d769ce454777e5711bd9dddf793"
     },
@@ -543,36 +414,12 @@
       "email_hash": "d5b51ad4df001531fc3c11863da6179f4dd5c95eb1a5085bf53c09914a16bf02"
     },
     {
-      "alias": "alumno136@upy.com",
-      "email_hash": "dbbf745f610d1ad05e00b0c2096959ccbb836deccbc9c6bed4cc54f05a09a90f"
-    },
-    {
-      "alias": "alumno137@upy.com",
-      "email_hash": "6ca650181b9421f94d1428caa311ba6da7192a8e9010b01ed021bbde6c5c401a"
-    },
-    {
       "alias": "alumno138@upy.com",
       "email_hash": "70866b2493b134d1636a547bf55fac557b2954c67703923c13fa3142c7d5e1c7"
     },
     {
-      "alias": "alumno139@upy.com",
-      "email_hash": "f7dc760f915f1dfe0e87a23f212d8d10943cd58e08432086a9ee7fff7556bb34"
-    },
-    {
-      "alias": "alumno140@upy.com",
-      "email_hash": "917c6f7b683627dd41aa73819d65c68692947d40a3c1cf85f7f3adeaea6cea63"
-    },
-    {
-      "alias": "alumno141@upy.com",
-      "email_hash": "a1ca81bd9f52f2353aa709ca40dfdb68992e7e1212313d812ccb63c4e5f073d6"
-    },
-    {
       "alias": "alumno142@upy.com",
       "email_hash": "0421dd51ba7d0a7fb006edd241c2d649bbab79fd379f2f07c6887a6924d4e24f"
-    },
-    {
-      "alias": "alumno143@upy.com",
-      "email_hash": "47b13ccbd9517a000752462bd344ec93b8ba5ae8e63c76ba60274caf1a9edd05"
     },
     {
       "alias": "alumno144@upy.com",
@@ -581,10 +428,6 @@
     {
       "alias": "alumno145@upy.com",
       "email_hash": "2f5368e40240635bd90ea5a2250d1c7af4dd9f864bf006f701556dbaf31eda16"
-    },
-    {
-      "alias": "alumno146@upy.com",
-      "email_hash": "b247e8fcf38f6b2d9b460a9daa0f8cfd94282e2781f53efb797ffde64b5cb5aa"
     },
     {
       "alias": "alumno147@upy.com",
@@ -599,20 +442,8 @@
       "email_hash": "5671673748eb71c4b95e59f450b12e784f3e09202547885797c055dd81d8379e"
     },
     {
-      "alias": "alumno150@upy.com",
-      "email_hash": "ec2c61dc24384fdc6282071e84308838f365e9b045719ff8420a73fe787c1345"
-    },
-    {
       "alias": "alumno151@upy.com",
       "email_hash": "7254100dc2750ec5b04750df7b4e62ccad2bb4c8c3cbbfbf06eecc2ac64b220a"
-    },
-    {
-      "alias": "alumno152@upy.com",
-      "email_hash": "f23ef71495eabe5b4126215f116df01befa0d9fe6c1e60af60ed254385471f80"
-    },
-    {
-      "alias": "alumno153@upy.com",
-      "email_hash": "6864fd2ffc81a797c5ddedf42a928493edbce4ae1c2587a241040d93e8af6536"
     },
     {
       "alias": "alumno154@upy.com",
@@ -627,16 +458,8 @@
       "email_hash": "4df22d3452d8a6025c5909c221213849402a39286409c9ea6a859dc2386f06e9"
     },
     {
-      "alias": "alumno157@upy.com",
-      "email_hash": "575d0e938a153c4163b71067e09ce5fe787c549d3302ca271f04a022b68fe369"
-    },
-    {
       "alias": "alumno158@upy.com",
       "email_hash": "5be15bcf8faeae1744b7b5823a2d40ee412f2e16bf488abe4d7d2e22a9157fc9"
-    },
-    {
-      "alias": "alumno159@upy.com",
-      "email_hash": "649d70eaba01cf488fd0ca31d9150b1867dd3c666064fb08a498c1fe5ed0e377"
     },
     {
       "alias": "alumno160@upy.com",
@@ -647,16 +470,8 @@
       "email_hash": "8f855ad6d03cd6449c267d93d5505331d2319611fd2346148bf96ee8f130cc07"
     },
     {
-      "alias": "alumno162@upy.com",
-      "email_hash": "699b41c9e8cba4759cb689c27a6b770e3c243ab86c3c3414e98b570093d14987"
-    },
-    {
       "alias": "alumno163@upy.com",
       "email_hash": "a1efab859e2004e71d25085624151d4210fb2224ddf19114ce4713f0f62a6a2b"
-    },
-    {
-      "alias": "alumno164@upy.com",
-      "email_hash": "b931583b163cb0f1d4d955523007415c238ba16122e2cbcfe46afd40ad20efa0"
     },
     {
       "alias": "alumno165@upy.com",
@@ -683,10 +498,6 @@
       "email_hash": "c3c95a61d264f1fa63b91818f17bd5ea03ddc80ff8ec435eb269248e37ac91bd"
     },
     {
-      "alias": "alumno171@upy.com",
-      "email_hash": "bce0d73d86ec930bea3d9699d4af92f57bb0d496d2c297439ec2a72052d886bd"
-    },
-    {
       "alias": "alumno172@upy.com",
       "email_hash": "7013d4a9ded41d68cf77cfc4d15a9d14d44e63175ae6808e89ec3ace434c378d"
     },
@@ -695,20 +506,12 @@
       "email_hash": "633401c97e965d97014f24ec23787b27d279538a7dd3dcbe3c660bf21ded11cf"
     },
     {
-      "alias": "alumno174@upy.com",
-      "email_hash": "b85b4f5bae3bcd0c5557f20b6bb8f49820ec48d3d6cce6196009d49c4b660ab7"
-    },
-    {
       "alias": "alumno175@upy.com",
       "email_hash": "3ac3327988067d1d8ecd2d778d5d5c119817dcffb87686b4c2729e16fcb375ef"
     },
     {
       "alias": "alumno176@upy.com",
       "email_hash": "1b992661cc9c39003a85d7e12ddc7687e8311beab5fab7f4dca02c5cc19f1b5f"
-    },
-    {
-      "alias": "alumno177@upy.com",
-      "email_hash": "52312824465653066dc242e1cedb05f07e1e08d2a416f0dc0d835208d1d68c4d"
     },
     {
       "alias": "alumno178@upy.com",
@@ -721,14 +524,6 @@
     {
       "alias": "alumno180@upy.com",
       "email_hash": "6b8f40eb614b0469ef0ff97d9a1d6b8d8aec9d012729ef3d14d9fba43c326e42"
-    },
-    {
-      "alias": "alumno181@upy.com",
-      "email_hash": "9e4f68305f91b28735612e00838dbe21c2144c57d6a899aa94733a7fe5852191"
-    },
-    {
-      "alias": "alumno182@upy.com",
-      "email_hash": "a133c390c4d8be8b20c9df36ca0e9565cfd5500e9ada31c394f160289cd76a91"
     },
     {
       "alias": "alumno183@upy.com",
@@ -763,10 +558,6 @@
       "email_hash": "798dada54b3564c2ffecab69e7dffe3b96ee65994fb87b7214a4d5ff44f4118c"
     },
     {
-      "alias": "alumno191@upy.com",
-      "email_hash": "958446a9cbe33ce7d897a24f3ded9721cab08551c1c7abf251fe66f0c5dd5609"
-    },
-    {
       "alias": "alumno192@upy.com",
       "email_hash": "fe68059dc99350f750a1b5257a70c5f4218e459b36d446161cefcfb6bcda4c8d"
     },
@@ -779,28 +570,12 @@
       "email_hash": "900ebd20424b7d082a2e977d34a026474362e4c3ae2fb5696eb1f26ed5cf06db"
     },
     {
-      "alias": "alumno195@upy.com",
-      "email_hash": "05c7dc69a9e04cbc93f88a9cd56737951cc203a1dae732eec053e144f8101dc0"
-    },
-    {
-      "alias": "alumno196@upy.com",
-      "email_hash": "82d26f9feb068b41d0182e62ba29576a98709e0491cbf3cc8f66c27f48fba565"
-    },
-    {
       "alias": "alumno197@upy.com",
       "email_hash": "598345be339f4ceaff12e3a5eec8a0c8b2e3a1331dab67d2ebf5a5406fc2f0a7"
     },
     {
-      "alias": "alumno198@upy.com",
-      "email_hash": "2548b44f014274471aa0f44f00d3ea1878f3918e5e0f99df1c6385b1469fda21"
-    },
-    {
       "alias": "alumno199@upy.com",
       "email_hash": "e00e4da6c6a7848d6ee9562441790ad6b597e2c185ebec96f2eccdc74a8d0ef7"
-    },
-    {
-      "alias": "alumno200@upy.com",
-      "email_hash": "5bd76eb1e87a56d4be3bc34fcd88816e92e02862e5d85ca9ed64b56e4a9d32cf"
     },
     {
       "alias": "alumno201@upy.com",
@@ -819,24 +594,12 @@
       "email_hash": "1395890567468734e0490a264a9c6b93b69c44f15108b2de942daac3acabefd6"
     },
     {
-      "alias": "alumno205@upy.com",
-      "email_hash": "dc8e52f63d2b7d7128e5e3f04aa004105bf9d0503e8adfde1e699e798e4b1421"
-    },
-    {
-      "alias": "alumno206@upy.com",
-      "email_hash": "b313063dd7d841c494fef42622ce9bcb9315ec7b179e7114bfc5f9bbbc84ef49"
-    },
-    {
       "alias": "alumno207@upy.com",
       "email_hash": "18af4ce7f42b39a49cccc8a24042fe2e05073f67b90052ff9e444a4f4a688164"
     },
     {
       "alias": "alumno208@upy.com",
       "email_hash": "ad5bbaad1f6a19c6459245ed9c8e1822ab06db22234c631cab622526f716e7c1"
-    },
-    {
-      "alias": "alumno209@upy.com",
-      "email_hash": "affc3d18cfc7c1c0dfc914a2707972bc00acb01abb590ae35ed6baa8a95318a7"
     },
     {
       "alias": "alumno210@upy.com",
@@ -851,28 +614,12 @@
       "email_hash": "f80ea450397e5854c53ce303f5f1d0450505f6913390be0f5711f7abc9d81ff0"
     },
     {
-      "alias": "alumno213@upy.com",
-      "email_hash": "275e8524dcac60fb1ce14912fadbf78eb8e0f1297d03c7a061a4dc30c9a8129a"
-    },
-    {
       "alias": "alumno214@upy.com",
       "email_hash": "58eda211bdfe853a87fc534e973b675104d8618566a4b7bf2b34a04fdc8b69bb"
     },
     {
-      "alias": "alumno215@upy.com",
-      "email_hash": "9493ea0efc32f2a4ddfffd69027d4bba71b23662011f1512e65c7474af1ef793"
-    },
-    {
       "alias": "alumno216@upy.com",
       "email_hash": "d702148c8d1da4a149d6b0c6a30ed320556ba09d845d5b8f5d41e2a45ec4f242"
-    },
-    {
-      "alias": "alumno217@upy.com",
-      "email_hash": "593acce34e8aa8696f84399ca01d964cb8463c747f942ec513883784db425c31"
-    },
-    {
-      "alias": "alumno218@upy.com",
-      "email_hash": "cbea8d0c7a1b1fd8f3328336517392333b0a0b83579319f098d8c0549bb15bba"
     },
     {
       "alias": "alumno219@upy.com",
@@ -891,10 +638,6 @@
       "email_hash": "11e7b5af2ef5847551604ff15721a5e9f164bb98d9b1422393e2e018f0779707"
     },
     {
-      "alias": "alumno223@upy.com",
-      "email_hash": "28d70a0c5a4d0fda8bf313219619debb79e84a43ff1a3c791ca2f05e5a153368"
-    },
-    {
       "alias": "alumno224@upy.com",
       "email_hash": "a0609820dccd124887bc2c6be44a25d4842e15a5378341bd44ec21bf78060c31"
     },
@@ -907,10 +650,6 @@
       "email_hash": "c6e4d178d2a6d881a2a82966689dc346b8cd9f783a111b908db1ca11105e94e8"
     },
     {
-      "alias": "alumno227@upy.com",
-      "email_hash": "d9b66050de8206c70b4d68a0ccb5df7a99db279b7aa006310743d15743f258cb"
-    },
-    {
       "alias": "alumno228@upy.com",
       "email_hash": "f2d96d64de6e3e4a6bf70ba132124747c100b6916ac67cd7e90bad25993f7a13"
     },
@@ -919,32 +658,12 @@
       "email_hash": "08c15c1a84f9d2b0a3486b207471630d9cbb882d62dd2ef13012c457608740c1"
     },
     {
-      "alias": "alumno230@upy.com",
-      "email_hash": "f9cb6416a1447fdb4cd35879626d74917e7d9da3bdd3c337eb33cc05a66b41d4"
-    },
-    {
       "alias": "alumno231@upy.com",
       "email_hash": "8f7ae77abeb5e4149f12749c2335249db7f8ca5327cccafddceb3a71005c5d61"
     },
     {
-      "alias": "alumno232@upy.com",
-      "email_hash": "eb7536dabe87e3deccd4f9e084de3047cecf001cd41af2af1b11cf13569e268d"
-    },
-    {
       "alias": "alumno233@upy.com",
       "email_hash": "5fe7e9b0481f965af5744e90acf89552b25f14ba082c6554022ff815977d71a9"
-    },
-    {
-      "alias": "alumno234@upy.com",
-      "email_hash": "d6b16652ab95e45c34ab24e4d1c2c0a7168e596207a751ae603ee0f6506c3363"
-    },
-    {
-      "alias": "alumno235@upy.com",
-      "email_hash": "0e974fa5616d63783b6d8cd50077d6ed8730ceea18255bdc947ee5bd7b681331"
-    },
-    {
-      "alias": "alumno236@upy.com",
-      "email_hash": "73a5d25845c47966552c220ab38b79caae0b1bcc0eaa482f429180c4a89e0bed"
     },
     {
       "alias": "alumno237@upy.com",
@@ -953,14 +672,6 @@
     {
       "alias": "alumno238@upy.com",
       "email_hash": "626477b3d29c400f938176a399fe9b6fa3bf74c71bf61d5cd8b55727c56d6369"
-    },
-    {
-      "alias": "alumno239@upy.com",
-      "email_hash": "1e1cc5cf0e7982feb8fb4fbe24cd503c5d007e527e0c9539a2084a7865811c67"
-    },
-    {
-      "alias": "alumno240@upy.com",
-      "email_hash": "012b1dfd866dea693c3aa1c2914c517d020964c357a95cb8bacbda13e0fe78b4"
     },
     {
       "alias": "alumno241@upy.com",
@@ -979,24 +690,8 @@
       "email_hash": "591556e839b66948d3f72103c75126df53499409889dca1b90d1cf0480fc31e0"
     },
     {
-      "alias": "alumno245@upy.com",
-      "email_hash": "b6f1657d03b01de62ada1c4e03fe7108286ace6500b0567454a64b1ce64bedbd"
-    },
-    {
       "alias": "alumno246@upy.com",
       "email_hash": "8186b4ceb00ad9d754a6e84e953ed21804a33f8696d9e21e374a10e3f350fa4a"
-    },
-    {
-      "alias": "alumno247@upy.com",
-      "email_hash": "c8e9eb1773d42de7fd4e4bd9eb35417cc76698c3fe29e219001a4ca224ad0dde"
-    },
-    {
-      "alias": "alumno248@upy.com",
-      "email_hash": "f119395d9f46dd098accfbe5acd46950a0f41b3f24d7e3a9882f5289ea56a5df"
-    },
-    {
-      "alias": "alumno249@upy.com",
-      "email_hash": "080e36a2b50867a0b4c785151977e0f2b674013c6a19e8e212c42982723979f7"
     },
     {
       "alias": "alumno250@upy.com",
@@ -1005,10 +700,6 @@
     {
       "alias": "alumno251@upy.com",
       "email_hash": "6bf4a59d196a7a0ac58fee5037a98a80ae9f6d2974d3d1f8f1ed1a904911364e"
-    },
-    {
-      "alias": "alumno252@upy.com",
-      "email_hash": "825766448efb74a51a31751acfc441b3c65dd5b4291c58a59e1c990bda030b5b"
     },
     {
       "alias": "alumno253@upy.com",
@@ -1023,28 +714,12 @@
       "email_hash": "e342e212c68669b34f04b6f5cebb8aeaf99ba6050467b8c891abccd9b646c0e0"
     },
     {
-      "alias": "alumno256@upy.com",
-      "email_hash": "e32e4117505f878fddd26287729fb7818ecf3aeed52190b58ef857e9446b5e29"
-    },
-    {
-      "alias": "alumno257@upy.com",
-      "email_hash": "edd11be932799dca1f4d3ffa236879e322a5a15e085ff299675337fb84ccd0e0"
-    },
-    {
-      "alias": "alumno258@upy.com",
-      "email_hash": "974e15d69d81c21aad8cff8ada67a9888ca8c516e77191e56dc157470337b71e"
-    },
-    {
       "alias": "alumno259@upy.com",
       "email_hash": "238b953e006a87301dedb3938b27eec20e1d15113a5a16fb84749ca34084b1f3"
     },
     {
       "alias": "alumno260@upy.com",
       "email_hash": "d159002a7ee7543aeed6a0cb8aa63b928e3ec73f40bbcafbc2fb86c6d742ba7a"
-    },
-    {
-      "alias": "alumno261@upy.com",
-      "email_hash": "556ec4e32d056b361fa888dfb4bf5a3eec62b529f326dc0751aca022abd79a30"
     },
     {
       "alias": "alumno262@upy.com",
@@ -1055,10 +730,6 @@
       "email_hash": "2fcaffc51973645f8ec578c02b5c723147905edadbcf42ee87c46c6b01d8eb46"
     },
     {
-      "alias": "alumno264@upy.com",
-      "email_hash": "ef5c8c18e9559804f15865d0572c50b2c900fd7943855e4a801af2c27610aba0"
-    },
-    {
       "alias": "alumno265@upy.com",
       "email_hash": "286a5b99595e2e48c5c0f4361e8905c29d5a034c4ff7de53f1041d0494d595ca"
     },
@@ -1067,20 +738,108 @@
       "email_hash": "0bec122da0239115ba0155aae1f54892e7db2954d28bf4c63bdbaef8fbeb871a"
     },
     {
-      "alias": "alumno267@upy.com",
-      "email_hash": "fcf148acaa1cac8ac84aafbcb5af5941dcd9d008392a1fa723e2ff9641831411"
-    },
-    {
       "alias": "alumno268@upy.com",
       "email_hash": "96299401e771c2459ad36625b6dcadf3f76f3902e015eb76be5416f6c55bf236"
     },
     {
-      "alias": "alumno269@upy.com",
-      "email_hash": "282e488fc3c2a750ee46cd05a2ed69b796f0ffc2c6a639c0343170ef5c7080ac"
-    },
-    {
       "alias": "alumno270@upy.com",
       "email_hash": "8724cae1bab437391d3f09ea30683b306924b50341963dbb27a986837961ac84"
+    },
+    {
+      "alias": "alumno271@upy.com",
+      "email_hash": "b36978dcab42275a0851bb1c68edb77bffca78cb7a2800db58ef126dff8faddb"
+    },
+    {
+      "alias": "alumno272@upy.com",
+      "email_hash": "e8e8fd1f62eb5473d22b5d5067c4dbe34f5d951985ab84ed517dbbb91cbadadf"
+    },
+    {
+      "alias": "alumno273@upy.com",
+      "email_hash": "b5f993781bc39e734b6b617850a8c46ab82a3b435d7731e1423152bc757979df"
+    },
+    {
+      "alias": "alumno274@upy.com",
+      "email_hash": "1e71e6c49c81e4a73a053523161d85c7d3fc2f22fa4f812545bdf28c68668d76"
+    },
+    {
+      "alias": "alumno275@upy.com",
+      "email_hash": "ca3e62146994b1ba2df7a509c7cf32110573f65e802711226f8b006268054d16"
+    },
+    {
+      "alias": "alumno276@upy.com",
+      "email_hash": "ddf672a1b5a7ee6f269387acf6089fbf1b5f897b044bad46a66dd4f4fe5798ef"
+    },
+    {
+      "alias": "alumno277@upy.com",
+      "email_hash": "a78998613c85bf0570b7623df1fd691832ceb21b11c0fec12916e748d94f9d65"
+    },
+    {
+      "alias": "alumno278@upy.com",
+      "email_hash": "45f96ca78c46f91321139e85414e5bcb2adbfa66e59cd36545ee47a471189750"
+    },
+    {
+      "alias": "alumno279@upy.com",
+      "email_hash": "1d679ac61baf04447674682c41f6fdbefcdd1ed86392355e8bc12cc7c09d9bb7"
+    },
+    {
+      "alias": "alumno280@upy.com",
+      "email_hash": "d254a1edecdaea22a9b005e5376e3b51d3a19e48c297d1fcd6d588b0cf36e257"
+    },
+    {
+      "alias": "alumno281@upy.com",
+      "email_hash": "6fab36f559569b5334b04edef5b773b2c47e46b79c022b919b84f870004fa85c"
+    },
+    {
+      "alias": "alumno282@upy.com",
+      "email_hash": "56ebf999838aba0a8d52b863f9be0d660a91e0854152a90fae0654cafc4d7f01"
+    },
+    {
+      "alias": "alumno283@upy.com",
+      "email_hash": "c78d6d5fa8c6b9b521a2c3992d5677359e76f8a9827d9f83d307efa5515eab2f"
+    },
+    {
+      "alias": "alumno284@upy.com",
+      "email_hash": "bdc60829fd78fedc2944264f3553b64737104fc9f965a488c718a864e8bb4283"
+    },
+    {
+      "alias": "alumno285@upy.com",
+      "email_hash": "f78fc4c177821868453f4201db283d879e865a48b8350993a3606a68e7f45d56"
+    },
+    {
+      "alias": "alumno286@upy.com",
+      "email_hash": "4d7ab3e815f7712977b5de29755111a298d84525090a66a491a68d76a83ea1de"
+    },
+    {
+      "alias": "alumno287@upy.com",
+      "email_hash": "fc91d2d411e969828e666c1c47b64658e63a9a422c79a487bd995c3b60213678"
+    },
+    {
+      "alias": "alumno288@upy.com",
+      "email_hash": "4ac2a843f036ad1d79ed5378e9f1a49ae5b1f6df8301772099f11a796a13c11f"
+    },
+    {
+      "alias": "alumno289@upy.com",
+      "email_hash": "e8cbb9b169e24635e8ee47f98305333a65e3c5eecadd143aed1abf12e74c6eca"
+    },
+    {
+      "alias": "alumno290@upy.com",
+      "email_hash": "33b8541cfa03097db98c171f4f9e575176db5955686230a5d0f1cb7d1b605869"
+    },
+    {
+      "alias": "alumno291@upy.com",
+      "email_hash": "0889d94cddaf2cdd12a93cda5c3460da2df30837cb0dd77887235fb4dbce6f30"
+    },
+    {
+      "alias": "alumno292@upy.com",
+      "email_hash": "85c8708079a6d5015578b60ba8fef4d25603bace8e23c459095accc9fd6e57af"
+    },
+    {
+      "alias": "alumno293@upy.com",
+      "email_hash": "b7da3c1c2031aec542b21010281d14518e341dc5bc091ca98bacc392c9ea58d1"
+    },
+    {
+      "alias": "alumno294@upy.com",
+      "email_hash": "0baf6eb3fcb0af36ec80ae9934f184777c2b01a4e9e3d2d0900e04fd437231d5"
     }
   ]
 }

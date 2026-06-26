@@ -1,11 +1,13 @@
 const DATA_URL = "participantes.json";
 
 const state = {
-  participants: []
+  participants: [],
+  winners: []
 };
 
 const elements = {
-  total: document.getElementById("totalParticipants"),
+  totalRegistered: document.getElementById("totalRegistered"),
+  validRaffleParticipants: document.getElementById("validRaffleParticipants"),
   updatedAt: document.getElementById("updatedAt"),
   visibleCount: document.getElementById("visibleCount"),
   list: document.getElementById("participantsList"),
@@ -13,9 +15,10 @@ const elements = {
   searchButton: document.getElementById("searchButton"),
   searchResult: document.getElementById("searchResult"),
   wheel: document.getElementById("raffleWheel"),
-  wheelTotal: document.getElementById("wheelTotal")
+  wheelTotal: document.getElementById("wheelTotal"),
+  winnersList: document.getElementById("winnersList"),
+  drawStatus: document.getElementById("drawStatus")
 };
-
 function normalizeEmail(email) {
   return email.trim().toLowerCase();
 }
@@ -50,8 +53,16 @@ function getParticipantAlias(participant) {
 }
 
 function renderSummary(data) {
-  if (elements.total) {
-    elements.total.textContent = data.total ?? state.participants.length;
+  const totalRegistered = data.total_registered ?? state.participants.length;
+  const validRaffleParticipants =
+    data.total_valid_raffle_participants ?? data.total ?? state.participants.length;
+
+  if (elements.totalRegistered) {
+    elements.totalRegistered.textContent = totalRegistered;
+  }
+
+  if (elements.validRaffleParticipants) {
+    elements.validRaffleParticipants.textContent = validRaffleParticipants;
   }
 
   if (elements.updatedAt) {
@@ -59,7 +70,13 @@ function renderSummary(data) {
   }
 
   if (elements.wheelTotal) {
-    elements.wheelTotal.textContent = data.total ?? state.participants.length;
+    elements.wheelTotal.textContent = validRaffleParticipants;
+  }
+
+  if (elements.drawStatus) {
+    elements.drawStatus.textContent = data.draw_done
+      ? "Rifa realizada"
+      : "Rifa pendiente";
   }
 }
 
@@ -87,6 +104,38 @@ function renderParticipants(participants) {
   });
 }
 
+function renderWinners(winners) {
+  if (!elements.winnersList) return;
+
+  elements.winnersList.innerHTML = "";
+
+  if (!Array.isArray(winners) || winners.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "Todavía no se han publicado los ganadores.";
+    elements.winnersList.appendChild(empty);
+    return;
+  }
+
+  winners.forEach(winner => {
+    const card = document.createElement("article");
+    card.className = "winner-card";
+
+    const prize = document.createElement("span");
+    prize.className = "winner-prize";
+    prize.textContent = `Premio ${winner.prize}`;
+
+    const alias = document.createElement("strong");
+    alias.className = "winner-alias";
+    alias.textContent = winner.alias;
+
+    card.appendChild(prize);
+    card.appendChild(alias);
+
+    elements.winnersList.appendChild(card);
+  });
+}
+
 function renderWheel(participants) {
   if (!elements.wheel) return;
 
@@ -107,6 +156,10 @@ function renderWheel(participants) {
     label.style.setProperty("--angle", `${index * step}deg`);
     elements.wheel.appendChild(label);
   });
+}
+
+function getWinsForAlias(alias) {
+  return state.winners.filter(winner => winner.alias === alias);
 }
 
 async function searchParticipant() {
@@ -133,17 +186,34 @@ async function searchParticipant() {
 
   const emailHash = await sha256Hex(email);
 
-  const match = state.participants.find(
-    participant => participant.email_hash === emailHash
+  const participant = state.participants.find(
+    item => item.email_hash === emailHash
   );
 
-  if (match) {
-    elements.searchResult.textContent = `Sí estás registrado como ${match.alias}.`;
-    elements.searchResult.classList.add("success");
-  } else {
-    elements.searchResult.textContent = "No encontramos tu correo registrado todavía. Si acabas de contestar, espera a que se actualice la lista.";
+  if (!participant) {
+    elements.searchResult.textContent = "No encontramos tu correo en la lista de participantes elegibles.";
     elements.searchResult.classList.add("error");
+    return;
   }
+
+  const wins = getWinsForAlias(participant.alias);
+
+  if (wins.length === 0) {
+    elements.searchResult.textContent = `Sí participaste como ${participant.alias}, pero esta vez no resultaste ganador.`;
+    elements.searchResult.classList.add("neutral");
+    return;
+  }
+
+  const prizeNumbers = wins
+    .map(winner => `Premio ${winner.prize}`)
+    .join(", ");
+
+  const timesText = wins.length === 1
+    ? "ganaste 1 vez"
+    : `ganaste ${wins.length} veces`;
+
+  elements.searchResult.textContent = `🎉 ¡Felicidades! Participaste como ${participant.alias} y ${timesText}. Resultado: ${prizeNumbers}.`;
+  elements.searchResult.classList.add("success");
 }
 
 async function loadParticipants() {
@@ -160,7 +230,12 @@ async function loadParticipants() {
       ? data.participants
       : [];
 
+    state.winners = Array.isArray(data.winners)
+      ? data.winners
+      : [];
+
     renderSummary(data);
+    renderWinners(state.winners);
     renderParticipants(state.participants);
     renderWheel(state.participants);
   } catch (error) {
@@ -168,10 +243,20 @@ async function loadParticipants() {
 
     if (elements.list) {
       elements.list.innerHTML = "";
+
       const item = document.createElement("li");
       item.className = "empty-state";
       item.textContent = "No se pudo cargar la lista de participantes.";
       elements.list.appendChild(item);
+    }
+
+    if (elements.winnersList) {
+      elements.winnersList.innerHTML = "";
+
+      const item = document.createElement("p");
+      item.className = "empty-state";
+      item.textContent = "No se pudieron cargar los resultados de la rifa.";
+      elements.winnersList.appendChild(item);
     }
   }
 }

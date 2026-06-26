@@ -123,7 +123,7 @@ h1 {
 
 .summary {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin-top: 22px;
 }
@@ -503,6 +503,86 @@ button:hover {
     border-right-width: 14px;
     border-top-width: 26px;
   }
+}
+
+.search-result {
+  margin: 14px 0 0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.search-result.neutral {
+  background: #f4efff;
+  color: var(--upy-purple-dark);
+  border: 1px solid var(--border);
+}
+
+.search-result.success {
+  background: #e9f8ee;
+  color: #1f7a3d;
+  border: 1px solid #b8e4c4;
+}
+
+.search-result.error {
+  background: #fff0f0;
+  color: #a12a2a;
+  border: 1px solid #f0b8b8;
+}
+
+.search-result.warning {
+  background: #fff7df;
+  color: #7a5700;
+  border: 1px solid rgba(201, 154, 46, 0.42);
+}
+
+.winners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.winner-card {
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(63, 20, 143, 0.96), rgba(43, 11, 99, 0.96));
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 16px 32px rgba(31, 7, 73, 0.2);
+}
+
+.winner-card::after {
+  content: "★";
+  position: absolute;
+  right: 16px;
+  bottom: -12px;
+  color: rgba(201, 154, 46, 0.3);
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.winner-prize {
+  display: inline-flex;
+  margin-bottom: 12px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: var(--upy-gold);
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.winner-alias {
+  position: relative;
+  z-index: 1;
+  display: block;
+  font-size: 1.35rem;
+  overflow-wrap: anywhere;
 }
 
 .search-result {

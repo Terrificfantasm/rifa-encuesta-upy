@@ -16,16 +16,22 @@
       </p>
     </section>
 
-    <section class="summary" aria-label="Resumen de participantes">
+    <div class="summary">
       <article class="card">
         <span class="label">Total registrados</span>
-        <strong id="totalParticipants">—</strong>
+        <strong id="totalRegistered">0</strong>
       </article>
+
+      <article class="card">
+        <span class="label">Participantes válidos de la rifa</span>
+        <strong id="validRaffleParticipants">0</strong>
+      </article>
+
       <article class="card">
         <span class="label">Última actualización</span>
-        <strong id="lastUpdated">05/06/2026 19:00hrs</strong>
+        <strong id="updatedAt">26/06/2026</strong>
       </article>
-    </section>
+    </div>
 
     <section class="search-panel">
       <label for="searchInput">Buscar mi correo institucional</label>
@@ -39,10 +45,25 @@
         <button id="clearSearch" type="button">Limpiar</button>
       </div>
       <p id="searchResult" class="search-result neutral">
-        Escribe tu correo institucional para verificar si estás registrado.
+        Escribe tu correo institucional para saber si participaste y si ganaste.
       </p>
     </section>
-
+    <section class="participants-section winners-section">
+      <div class="section-header">
+      <div>
+        <h2>Resultados de la rifa</h2>
+        <p class="section-subtitle">
+          Estos son los alias ganadores. Cada alumno puede buscar su correo institucional para confirmar si ganó.
+        </p>
+    <section class="notice">
+      <strong>Aviso:</strong>
+      Por favor si ganaste acercate al salon de Datos 8A con tu credencial de estudiante para reclamar tu premio.
+    </section>
+      </div>
+      <span id="drawStatus" class="wheel-status">Resultados cargando</span>
+      </div>
+      <div id="winnersList" class="winners-list"></div>
+    </section>
     <section class="notice">
       <strong>Aviso:</strong>
       No se muestran respuestas de la encuesta, nombres, grupos ni carreras. La lista se eliminará al terminar la rifa.
